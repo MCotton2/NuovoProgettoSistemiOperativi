@@ -1473,6 +1473,58 @@ CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2040/pico_platform/platform.c.
   /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
 
+CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: /home/alex/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  /home/alex/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/alex/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/alex/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/alex/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/alex/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/alex/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /home/alex/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/alex/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/alex/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/alex/pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h \
+  /home/alex/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/alex/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /home/alex/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/alex/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/alex/pico/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /home/alex/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/alex/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/alex/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
+
 CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: /home/alex/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
@@ -3435,6 +3487,7 @@ CMakeFiles/test.dir/main.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Operativ
   /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
   /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
   /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pwm.h \
   /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
   /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
   /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
@@ -3445,6 +3498,7 @@ CMakeFiles/test.dir/main.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Operativ
   /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
   /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
   /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pwm.h \
   /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
   /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
   /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
@@ -3457,6 +3511,7 @@ CMakeFiles/test.dir/main.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Operativ
   /home/alex/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
   /home/alex/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
   /home/alex/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/alex/pico/pico-sdk/src/rp2_common/hardware_pwm/include/hardware/pwm.h \
   /home/alex/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
   /home/alex/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
   /home/alex/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
@@ -3492,9 +3547,9 @@ CMakeFiles/test.dir/main.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Operativ
   /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
 
 
-/home/alex/pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h:
+/home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pwm.h:
 
-/home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h:
+/home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pwm.h:
 
 /home/alex/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c:
 
@@ -3513,6 +3568,12 @@ CMakeFiles/test.dir/main.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Operativ
 /home/alex/pico/pico-sdk/src/rp2040/boot_stage2/include/boot_stage2/config.h:
 
 /home/alex/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h:
+
+/home/alex/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h:
+
+/home/alex/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h:
+
+/home/alex/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h:
 
 /home/alex/pico/pico-sdk/src/rp2_common/pico_time_adapter/include/pico/time_adapter.h:
 
@@ -3690,6 +3751,10 @@ generated/pico_base/pico/version.h:
 
 /usr/include/newlib/stdlib.h:
 
+/home/alex/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c:
+
+/home/alex/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h:
+
 /home/alex/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c:
 
 generated/pico_base/pico/config_autogen.h:
@@ -3790,10 +3855,6 @@ generated/pico_base/pico/config_autogen.h:
 
 /home/alex/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h:
 
-/home/alex/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h:
-
-/home/alex/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h:
-
 /usr/include/newlib/machine/stdlib.h:
 
 /usr/include/newlib/sys/_stdint.h:
@@ -3829,6 +3890,8 @@ generated/pico_base/pico/config_autogen.h:
 /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h:
 
 /home/alex/pico/pico-sdk/src/common/pico_util/include/pico/util/datetime.h:
+
+/home/alex/pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h:
 
 /home/alex/pico/pico-sdk/src/common/pico_util/datetime.c:
 
@@ -3888,6 +3951,14 @@ generated/pico_base/pico/config_autogen.h:
 
 /home/alex/pico/pico-sdk/src/rp2040/pico_platform/platform.c:
 
+/home/alex/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c:
+
+/home/alex/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h:
+
+/home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h:
+
+/home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h:
+
 /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h:
 
 /home/alex/pico/pico-sdk/src/common/pico_time/include/pico/time.h:
@@ -3917,8 +3988,6 @@ generated/pico_base/pico/config_autogen.h:
 /usr/include/newlib/sys/cdefs.h:
 
 /home/alex/pico/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h:
-
-/home/alex/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h:
 
 /home/alex/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h:
 
@@ -3971,6 +4040,8 @@ generated/pico_base/pico/config_autogen.h:
 /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/psm.h:
 
 /home/alex/pico/pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h:
+
+/home/alex/pico/pico-sdk/src/rp2_common/hardware_pwm/include/hardware/pwm.h:
 
 /home/alex/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c:
 
@@ -4028,14 +4099,6 @@ generated/pico_base/pico/config_autogen.h:
 
 /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/rtc.h:
 
-/home/alex/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h:
-
-/home/alex/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c:
-
 /home/alex/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c:
 
 /home/alex/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c:
-
-/home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h:
-
-/home/alex/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h:

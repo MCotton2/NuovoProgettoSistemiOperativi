@@ -19,7 +19,7 @@ pico_sdk_init()
 add_executable(test main.cpp)
 
 #Collego librerie necessarie
-target_link_libraries(test pico_stdlib hardware_adc)
+target_link_libraries(test pico_stdlib hardware_adc hardware_pwm)
 
 #Disabilita UART fisica e usiamo l'usb
 pico_enable_stdio_usb(test 1)
