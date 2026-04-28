@@ -222,6 +222,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/alex/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c" "CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o" "gcc" "CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o.d"
   "/home/alex/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o" "gcc" "CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o.d"
   "/home/alex/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o" "gcc" "CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o.d"
+  "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Joystick.cpp" "CMakeFiles/test.dir/Joystick.cpp.o" "gcc" "CMakeFiles/test.dir/Joystick.cpp.o.d"
+  "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/ServoMotor.cpp" "CMakeFiles/test.dir/ServoMotor.cpp.o" "gcc" "CMakeFiles/test.dir/ServoMotor.cpp.o.d"
   "/home/alex/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp" "CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o" "gcc" "CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o.d"
   "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/main.cpp" "CMakeFiles/test.dir/main.cpp.o" "gcc" "CMakeFiles/test.dir/main.cpp.o.d"
   )

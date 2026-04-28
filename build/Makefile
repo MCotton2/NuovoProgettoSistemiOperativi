@@ -207,6 +207,54 @@ pico_status_led_ws2812_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/build
 .PHONY : pico_status_led_ws2812_pio_h/fast
 
+Joystick.o: Joystick.cpp.o
+.PHONY : Joystick.o
+
+# target to build an object file
+Joystick.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/Joystick.cpp.o
+.PHONY : Joystick.cpp.o
+
+Joystick.i: Joystick.cpp.i
+.PHONY : Joystick.i
+
+# target to preprocess a source file
+Joystick.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/Joystick.cpp.i
+.PHONY : Joystick.cpp.i
+
+Joystick.s: Joystick.cpp.s
+.PHONY : Joystick.s
+
+# target to generate assembly for a file
+Joystick.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/Joystick.cpp.s
+.PHONY : Joystick.cpp.s
+
+ServoMotor.o: ServoMotor.cpp.o
+.PHONY : ServoMotor.o
+
+# target to build an object file
+ServoMotor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/ServoMotor.cpp.o
+.PHONY : ServoMotor.cpp.o
+
+ServoMotor.i: ServoMotor.cpp.i
+.PHONY : ServoMotor.i
+
+# target to preprocess a source file
+ServoMotor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/ServoMotor.cpp.i
+.PHONY : ServoMotor.cpp.i
+
+ServoMotor.s: ServoMotor.cpp.s
+.PHONY : ServoMotor.s
+
+# target to generate assembly for a file
+ServoMotor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/ServoMotor.cpp.s
+.PHONY : ServoMotor.cpp.s
+
 home/alex/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o: home/alex/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
 .PHONY : home/alex/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o
 
@@ -2038,6 +2086,12 @@ help:
 	@echo "... bs2_default"
 	@echo "... bs2_default_library"
 	@echo "... test"
+	@echo "... Joystick.o"
+	@echo "... Joystick.i"
+	@echo "... Joystick.s"
+	@echo "... ServoMotor.o"
+	@echo "... ServoMotor.i"
+	@echo "... ServoMotor.s"
 	@echo "... home/alex/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o"
 	@echo "... home/alex/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
 	@echo "... home/alex/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
