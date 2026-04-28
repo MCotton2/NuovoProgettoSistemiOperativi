@@ -1,0 +1,14 @@
+# Target labels
+ picotoolBuild
+# Source files and their labels
+/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/CMakeFiles/picotoolBuild
+/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/CMakeFiles/picotoolBuild.rule
+/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/CMakeFiles/picotoolBuild-complete.rule
+/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/picotool/src/picotoolBuild-stamp/picotoolBuild-build.rule
+/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/picotool/src/picotoolBuild-stamp/picotoolBuild-configure.rule
+/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/picotool/src/picotoolBuild-stamp/picotoolBuild-download.rule
+/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/picotool/src/picotoolBuild-stamp/picotoolBuild-install.rule
+/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir.rule
+/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/picotool/src/picotoolBuild-stamp/picotoolBuild-patch.rule
+/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/picotool/src/picotoolBuild-stamp/picotoolBuild-test.rule
+/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/picotool/src/picotoolBuild-stamp/picotoolBuild-update.rule
