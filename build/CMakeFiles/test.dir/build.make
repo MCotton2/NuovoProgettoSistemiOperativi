@@ -1248,6 +1248,20 @@ CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alex/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c -o CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 
+CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: /home/alex/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
+CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o -MF CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o.d -o CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o -c /home/alex/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
+
+CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alex/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c > CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+
+CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alex/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c -o CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+
 # Object files for target test
 test_OBJECTS = \
 "CMakeFiles/test.dir/main.cpp.o" \
@@ -1334,7 +1348,8 @@ test_OBJECTS = \
 "CMakeFiles/test.dir/home/alex/pico/pico-sdk/lib/tinyusb/src/tusb.c.o" \
 "CMakeFiles/test.dir/home/alex/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o" \
 "CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o" \
-"CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o"
+"CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o" \
+"CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o"
 
 # External object files for target test
 test_EXTERNAL_OBJECTS =
@@ -1424,11 +1439,12 @@ test.elf: CMakeFiles/test.dir/home/alex/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
 test.elf: CMakeFiles/test.dir/home/alex/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
 test.elf: CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
 test.elf: CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
+test.elf: CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
 test.elf: CMakeFiles/test.dir/build.make
 test.elf: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o
 test.elf: /home/alex/pico/pico-sdk/src/rp2_common/pico_crt0/rp2040/memmap_default.ld
 test.elf: CMakeFiles/test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_86) "Linking CXX executable test.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_87) "Linking CXX executable test.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/arm-none-eabi-objdump -h "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/test.elf" > test.dis
 	/usr/bin/arm-none-eabi-objdump -d "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/test.elf" >> test.dis

@@ -72,6 +72,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o.d"
   "CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o"
   "CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o.d"
+  "CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o"
+  "CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o.d"
   "CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o"
   "CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o.d"
   "CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"

@@ -65,6 +65,6 @@ CMakeFiles/test.dir/main.cpp.o: \
  /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
  /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
  /home/alex/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
- /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Joystick.h \
- /usr/include/newlib/c++/13.2.1/cstdint \
- /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/ServoMotor.h
+ /home/alex/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
+ /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
+ /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h

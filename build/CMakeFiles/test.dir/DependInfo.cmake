@@ -148,6 +148,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/home/alex/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
   "/home/alex/pico/pico-sdk/src/rp2_common/hardware_adc/include"
   "/home/alex/pico/pico-sdk/src/rp2_common/hardware_pwm/include"
+  "/home/alex/pico/pico-sdk/src/rp2_common/hardware_i2c/include"
   )
 
 # The set of dependency files which are needed:
@@ -186,6 +187,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/alex/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c" "CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o" "gcc" "CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o.d"
   "/home/alex/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c" "CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o" "gcc" "CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o.d"
   "/home/alex/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c" "CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o" "gcc" "CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o.d"
+  "/home/alex/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c" "CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o" "gcc" "CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o.d"
   "/home/alex/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c" "CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o" "gcc" "CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o.d"
   "/home/alex/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c" "CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o" "gcc" "CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o.d"
   "/home/alex/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c" "CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o" "gcc" "CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o.d"
