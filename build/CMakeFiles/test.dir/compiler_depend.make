@@ -88,18 +88,67 @@ CMakeFiles/test.dir/Qmc5883l.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Oper
   /home/alex/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/alloca.h \
   /usr/include/newlib/assert.h \
   /usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h \
   /usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h \
   /usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h \
+  /usr/include/newlib/c++/13.2.1/bit \
+  /usr/include/newlib/c++/13.2.1/bits/concept_check.h \
+  /usr/include/newlib/c++/13.2.1/bits/cpp_type_traits.h \
+  /usr/include/newlib/c++/13.2.1/bits/exception_defines.h \
+  /usr/include/newlib/c++/13.2.1/bits/functexcept.h \
+  /usr/include/newlib/c++/13.2.1/bits/move.h \
+  /usr/include/newlib/c++/13.2.1/bits/predefined_ops.h \
+  /usr/include/newlib/c++/13.2.1/bits/ptr_traits.h \
+  /usr/include/newlib/c++/13.2.1/bits/requires_hosted.h \
+  /usr/include/newlib/c++/13.2.1/bits/specfun.h \
+  /usr/include/newlib/c++/13.2.1/bits/std_abs.h \
+  /usr/include/newlib/c++/13.2.1/bits/stl_algobase.h \
+  /usr/include/newlib/c++/13.2.1/bits/stl_iterator.h \
+  /usr/include/newlib/c++/13.2.1/bits/stl_iterator_base_funcs.h \
+  /usr/include/newlib/c++/13.2.1/bits/stl_iterator_base_types.h \
+  /usr/include/newlib/c++/13.2.1/bits/stl_pair.h \
+  /usr/include/newlib/c++/13.2.1/bits/utility.h \
   /usr/include/newlib/c++/13.2.1/cassert \
+  /usr/include/newlib/c++/13.2.1/cmath \
+  /usr/include/newlib/c++/13.2.1/debug/assertions.h \
+  /usr/include/newlib/c++/13.2.1/debug/debug.h \
+  /usr/include/newlib/c++/13.2.1/ext/numeric_traits.h \
+  /usr/include/newlib/c++/13.2.1/ext/type_traits.h \
+  /usr/include/newlib/c++/13.2.1/limits \
+  /usr/include/newlib/c++/13.2.1/math.h \
   /usr/include/newlib/c++/13.2.1/pstl/pstl_config.h \
+  /usr/include/newlib/c++/13.2.1/stdlib.h \
+  /usr/include/newlib/c++/13.2.1/tr1/bessel_function.tcc \
+  /usr/include/newlib/c++/13.2.1/tr1/beta_function.tcc \
+  /usr/include/newlib/c++/13.2.1/tr1/ell_integral.tcc \
+  /usr/include/newlib/c++/13.2.1/tr1/exp_integral.tcc \
+  /usr/include/newlib/c++/13.2.1/tr1/gamma.tcc \
+  /usr/include/newlib/c++/13.2.1/tr1/hypergeometric.tcc \
+  /usr/include/newlib/c++/13.2.1/tr1/legendre_function.tcc \
+  /usr/include/newlib/c++/13.2.1/tr1/modified_bessel_func.tcc \
+  /usr/include/newlib/c++/13.2.1/tr1/poly_hermite.tcc \
+  /usr/include/newlib/c++/13.2.1/tr1/poly_laguerre.tcc \
+  /usr/include/newlib/c++/13.2.1/tr1/riemann_zeta.tcc \
+  /usr/include/newlib/c++/13.2.1/tr1/special_function_util.h \
+  /usr/include/newlib/c++/13.2.1/type_traits \
   /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/_types.h \
   /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/machine/stdlib.h \
+  /usr/include/newlib/math.h \
   /usr/include/newlib/newlib.h \
+  /usr/include/newlib/stdio.h \
+  /usr/include/newlib/stdlib.h \
+  /usr/include/newlib/sys/_types.h \
   /usr/include/newlib/sys/cdefs.h \
   /usr/include/newlib/sys/config.h \
   /usr/include/newlib/sys/features.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/sys/stdio.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
   /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
@@ -3691,7 +3740,9 @@ CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/pico_unique_id/unique
   /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
 
 CMakeFiles/test.dir/main.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/main.cpp \
+  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Joystick.h \
   /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Qmc5883l.h \
+  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/ServoMotor.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
   /home/alex/pico/pico-sdk/src/boards/include/boards/pico.h \
@@ -3748,6 +3799,7 @@ CMakeFiles/test.dir/main.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Operativ
   /usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h \
   /usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h \
   /usr/include/newlib/c++/13.2.1/cassert \
+  /usr/include/newlib/c++/13.2.1/cstdint \
   /usr/include/newlib/c++/13.2.1/pstl/pstl_config.h \
   /usr/include/newlib/machine/_default_types.h \
   /usr/include/newlib/machine/_types.h \
@@ -3813,69 +3865,119 @@ CMakeFiles/test.dir/main.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Operativ
 
 /home/alex/pico/pico-sdk/src/rp2_common/pico_float/float_math.c:
 
-/home/alex/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c:
+/home/alex/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c:
 
-/home/alex/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c:
+/home/alex/pico/pico-sdk/src/rp2_common/pico_flash/flash.c:
 
-/home/alex/pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h:
+/home/alex/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include/pico/fix/rp2040_usb_device_enumeration.h:
 
-/home/alex/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c:
+/home/alex/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c:
 
-/home/alex/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c:
+/home/alex/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h:
 
-/home/alex/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c:
+/usr/lib/gcc/arm-none-eabi/13.2.1/include/float.h:
 
-/home/alex/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c:
+/usr/include/newlib/c++/13.2.1/cstdlib:
 
-/usr/include/newlib/machine/_default_types.h:
+/usr/include/newlib/unistd.h:
 
-/usr/include/newlib/sys/stdio.h:
+/usr/include/newlib/sys/unistd.h:
 
-/home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/rtc.h:
+/usr/include/newlib/sys/times.h:
 
-/usr/include/newlib/sys/lock.h:
+/usr/include/newlib/sys/stat.h:
 
-/usr/include/newlib/sys/_locale.h:
+/home/alex/pico/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h:
 
-/usr/include/newlib/c++/13.2.1/stdlib.h:
+/home/alex/pico/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h:
 
-/usr/include/newlib/sys/_intsup.h:
+/home/alex/pico/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h:
 
-/home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h:
+/home/alex/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c:
 
-/usr/include/newlib/strings.h:
+/usr/lib/gcc/arm-none-eabi/13.2.1/include/stdatomic.h:
 
-/usr/include/newlib/string.h:
+/home/alex/pico/pico-sdk/src/rp2_common/pico_atomic/include/stdatomic.h:
 
-/home/alex/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c:
+/home/alex/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c:
 
-/home/alex/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c:
+/home/alex/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp:
 
-/home/alex/pico/pico-sdk/src/rp2_common/pico_printf/printf.c:
+/home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xosc.h:
 
-/usr/include/newlib/inttypes.h:
+/home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xosc.h:
 
-/home/alex/pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h:
+/home/alex/pico/pico-sdk/src/rp2_common/pico_double/include/pico/double.h:
 
-/usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h:
+/home/alex/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c:
 
-/home/alex/pico/pico-sdk/lib/tinyusb/src/device/usbd.h:
+/home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xip.h:
 
-/home/alex/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c:
+/home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xip.h:
+
+/home/alex/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c:
+
+/home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/psm.h:
+
+/home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/psm.h:
+
+/home/alex/pico/pico-sdk/src/rp2_common/hardware_vreg/include/hardware/vreg.h:
+
+/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/main.cpp:
+
+/home/alex/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h:
+
+/usr/include/newlib/math.h:
+
+/home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h:
 
 /usr/include/newlib/sys/reent.h:
 
 /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sysinfo.h:
 
-/home/alex/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h:
+/home/alex/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h:
 
-/home/alex/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c:
+/usr/include/newlib/machine/stdlib.h:
 
-/home/alex/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c:
+/usr/include/newlib/sys/_stdint.h:
 
-/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/main.cpp:
+/usr/include/newlib/c++/13.2.1/tr1/gamma.tcc:
 
-/home/alex/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h:
+/usr/include/newlib/c++/13.2.1/tr1/exp_integral.tcc:
+
+/usr/include/newlib/sys/stdio.h:
+
+/usr/include/newlib/c++/13.2.1/tr1/beta_function.tcc:
+
+/usr/include/newlib/c++/13.2.1/tr1/bessel_function.tcc:
+
+/usr/include/newlib/c++/13.2.1/math.h:
+
+/home/alex/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h:
+
+/usr/include/newlib/c++/13.2.1/debug/assertions.h:
+
+/home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/mpu.h:
+
+/usr/include/newlib/assert.h:
+
+/usr/include/newlib/c++/13.2.1/cmath:
+
+/home/alex/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h:
+
+/usr/include/newlib/machine/_endian.h:
+
+/usr/include/newlib/c++/13.2.1/tr1/modified_bessel_func.tcc:
+
+/home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h:
+
+/home/alex/pico/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h:
+
+/usr/include/newlib/c++/13.2.1/bits/stl_pair.h:
+
+/usr/include/newlib/c++/13.2.1/bits/concept_check.h:
+
+/usr/include/newlib/c++/13.2.1/bits/exception_defines.h:
 
 /home/alex/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h:
 
@@ -3883,89 +3985,103 @@ CMakeFiles/test.dir/main.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Operativ
 
 /home/alex/pico/pico-sdk/src/rp2_common/hardware_ticks/include/hardware/ticks.h:
 
-/usr/include/newlib/math.h:
+/home/alex/pico/pico-sdk/src/common/pico_time/time.c:
 
-/home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h:
+/home/alex/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c:
 
-/home/alex/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c:
+/home/alex/pico/pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h:
 
-/home/alex/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h:
+/usr/include/newlib/c++/13.2.1/bits/stl_iterator_base_funcs.h:
 
 /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pwm.h:
 
-/home/alex/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h:
+/usr/include/newlib/c++/13.2.1/bits/stl_algobase.h:
 
-/usr/include/newlib/machine/_types.h:
+/usr/include/newlib/sys/string.h:
+
+/home/alex/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c:
+
+/home/alex/pico/pico-sdk/src/rp2_common/hardware_pwm/include/hardware/pwm.h:
+
+/usr/include/newlib/c++/13.2.1/bits/specfun.h:
+
+/home/alex/pico/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h:
+
+/home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h:
+
+/home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/rtc.h:
+
+/usr/include/newlib/sys/lock.h:
+
+/usr/include/newlib/c++/13.2.1/bits/requires_hosted.h:
+
+/usr/include/newlib/c++/13.2.1/stdlib.h:
+
+/usr/include/newlib/sys/_locale.h:
 
 /home/alex/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c:
 
-/home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h:
-
 /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h:
 
-/home/alex/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h:
+/usr/include/newlib/machine/_types.h:
 
-/home/alex/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h:
+/home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h:
 
-/home/alex/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h:
+/usr/include/newlib/c++/13.2.1/bits/move.h:
+
+/usr/include/newlib/c++/13.2.1/cstdint:
 
 /home/alex/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h:
 
-/home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/psm.h:
+/home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/vreg_and_chip_reset.h:
+
+/home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_qspi.h:
 
 /home/alex/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h:
 
 /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h:
 
-/home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h:
+/usr/include/newlib/machine/types.h:
 
-/home/alex/pico/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h:
+/usr/include/newlib/c++/13.2.1/bits/stl_iterator_base_types.h:
 
-/home/alex/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h:
-
-/home/alex/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c:
-
-/home/alex/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h:
-
-/home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h:
-
-/usr/include/newlib/sys/times.h:
+/home/alex/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h:
 
 /home/alex/pico/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h:
 
-/home/alex/pico/pico-sdk/src/common/pico_sync/include/pico/sem.h:
-
-/usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h:
-
-/home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h:
-
 /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h:
+
+/usr/include/newlib/c++/13.2.1/bits/utility.h:
+
+/home/alex/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c:
+
+/usr/include/newlib/_ansi.h:
 
 /home/alex/pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h:
 
-/home/alex/pico/pico-sdk/lib/tinyusb/src/osal/osal.h:
-
 /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h:
 
+/usr/include/newlib/c++/13.2.1/tr1/ell_integral.tcc:
+
+/usr/include/newlib/c++/13.2.1/bits/cpp_type_traits.h:
+
+/usr/include/newlib/c++/13.2.1/debug/debug.h:
+
+/home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/ssi.h:
+
+/home/alex/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h:
+
+/home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h:
+
+/usr/include/newlib/c++/13.2.1/limits:
+
+/home/alex/pico/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h:
+
 /home/alex/pico/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h:
-
-/home/alex/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c:
-
-/home/alex/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c:
 
 /usr/include/newlib/alloca.h:
 
 /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h:
-
-/usr/include/newlib/sys/string.h:
-
-/usr/include/newlib/sys/_types.h:
-
-/home/alex/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h:
-
-/usr/include/newlib/machine/ieeefp.h:
-
-/home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h:
 
 /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h:
 
@@ -3973,11 +4089,11 @@ CMakeFiles/test.dir/main.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Operativ
 
 /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h:
 
-/home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xip.h:
+/usr/include/newlib/c++/13.2.1/tr1/poly_laguerre.tcc:
 
-/usr/include/newlib/unistd.h:
+/home/alex/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c:
 
-/home/alex/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h:
+/home/alex/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c:
 
 /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_qspi.h:
 
@@ -3992,6 +4108,8 @@ CMakeFiles/test.dir/main.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Operativ
 /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/ServoMotor.cpp:
 
 /usr/include/newlib/_newlib_version.h:
+
+/usr/include/newlib/c++/13.2.1/bits/ptr_traits.h:
 
 /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h:
 
@@ -4011,15 +4129,15 @@ CMakeFiles/test.dir/main.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Operativ
 
 /home/alex/pico/pico-sdk/src/common/pico_sync/lock_core.c:
 
-/home/alex/pico/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h:
-
 /home/alex/pico/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h:
 
 /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Joystick.h:
 
-/home/alex/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h:
+/home/alex/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c:
 
-/usr/include/newlib/machine/_endian.h:
+/home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h:
+
+/usr/include/newlib/c++/13.2.1/bits/functexcept.h:
 
 /home/alex/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h:
 
@@ -4027,31 +4145,39 @@ CMakeFiles/test.dir/main.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Operativ
 
 /home/alex/pico/pico-sdk/src/common/pico_util/queue.c:
 
+/usr/include/newlib/stdlib.h:
+
+/home/alex/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c:
+
+/home/alex/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h:
+
 generated/pico_base/pico/config_autogen.h:
 
-/home/alex/pico/pico-sdk/lib/tinyusb/src/common/tusb_private.h:
+/home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h:
 
-/home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h:
-
-/home/alex/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h:
+/usr/include/newlib/sys/_intsup.h:
 
 /home/alex/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h:
 
 /home/alex/pico/pico-sdk/src/boards/include/boards/pico.h:
 
+/usr/include/newlib/c++/13.2.1/bits/stl_iterator.h:
+
 /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h:
 
 /home/alex/pico/pico-sdk/src/common/pico_time/timeout_helper.c:
+
+/usr/include/newlib/c++/13.2.1/tr1/special_function_util.h:
 
 /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h:
 
 /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/ServoMotor.h:
 
+/usr/include/newlib/machine/_default_types.h:
+
+/home/alex/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c:
+
 /home/alex/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h:
-
-/home/alex/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c:
-
-/home/alex/pico/pico-sdk/lib/tinyusb/src/tusb.c:
 
 /home/alex/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h:
 
@@ -4067,23 +4193,15 @@ generated/pico_base/pico/config_autogen.h:
 
 /home/alex/pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h:
 
-/home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xosc.h:
-
-/home/alex/pico/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h:
-
-/usr/include/newlib/_ansi.h:
-
-/home/alex/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c:
-
 /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pwm.h:
-
-/home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h:
 
 /home/alex/pico/pico-sdk/src/common/pico_time/include/pico/time.h:
 
+/home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h:
+
 /home/alex/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c:
 
-/home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xip.h:
+/usr/include/newlib/c++/13.2.1/ext/numeric_traits.h:
 
 /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Qmc5883l.cpp:
 
@@ -4095,27 +4213,33 @@ generated/pico_base/pico/config_autogen.h:
 
 /usr/include/newlib/stdio.h:
 
-/home/alex/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp:
+/home/alex/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h:
 
-/home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xosc.h:
+/usr/include/newlib/sys/_types.h:
 
-/home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/mpu.h:
+/home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h:
 
-/usr/include/newlib/assert.h:
+/usr/include/newlib/machine/ieeefp.h:
+
+/home/alex/pico/pico-sdk/lib/tinyusb/src/osal/osal.h:
+
+/usr/include/newlib/c++/13.2.1/type_traits:
+
+/usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h:
+
+/home/alex/pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h:
+
+/usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h:
+
+/home/alex/pico/pico-sdk/src/common/pico_sync/include/pico/sem.h:
+
+/usr/include/newlib/c++/13.2.1/tr1/legendre_function.tcc:
 
 /home/alex/pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h:
 
 generated/pico_base/pico/version.h:
 
 /usr/include/newlib/c++/13.2.1/cassert:
-
-/home/alex/pico/pico-sdk/lib/tinyusb/src/tusb_option.h:
-
-/home/alex/pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h:
-
-/home/alex/pico/pico-sdk/lib/tinyusb/src/device/usbd.c:
-
-/usr/include/newlib/c++/13.2.1/cstdint:
 
 /home/alex/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h:
 
@@ -4131,11 +4255,9 @@ generated/pico_base/pico/version.h:
 
 /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h:
 
-/home/alex/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c:
+/usr/include/newlib/c++/13.2.1/bit:
 
-/home/alex/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h:
-
-/usr/include/newlib/stdlib.h:
+/usr/include/newlib/c++/13.2.1/tr1/riemann_zeta.tcc:
 
 /home/alex/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h:
 
@@ -4145,11 +4267,95 @@ generated/pico_base/pico/version.h:
 
 /usr/include/newlib/sys/config.h:
 
-/home/alex/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c:
+/usr/include/newlib/c++/13.2.1/bits/predefined_ops.h:
 
 /usr/include/newlib/sys/features.h:
 
 /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h:
+
+/home/alex/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h:
+
+/home/alex/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h:
+
+/home/alex/pico/pico-sdk/lib/tinyusb/src/tusb.c:
+
+/home/alex/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c:
+
+/home/alex/pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h:
+
+/home/alex/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c:
+
+/home/alex/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c:
+
+/home/alex/pico/pico-sdk/lib/tinyusb/src/tusb_option.h:
+
+/home/alex/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h:
+
+/home/alex/pico/pico-sdk/lib/tinyusb/src/device/usbd.c:
+
+/home/alex/pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h:
+
+/home/alex/pico/pico-sdk/lib/tinyusb/src/common/tusb_private.h:
+
+/home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h:
+
+/home/alex/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h:
+
+/home/alex/pico/pico-sdk/lib/tinyusb/src/device/usbd.h:
+
+/home/alex/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c:
+
+/home/alex/pico/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h:
+
+/usr/include/newlib/c++/13.2.1/tr1/hypergeometric.tcc:
+
+/home/alex/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h:
+
+/home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h:
+
+/home/alex/pico/pico-sdk/src/rp2_common/pico_printf/printf.c:
+
+/usr/include/newlib/inttypes.h:
+
+/home/alex/pico/pico-sdk/src/rp2_common/pico_double/double_math.c:
+
+/home/alex/pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h:
+
+/home/alex/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c:
+
+/usr/include/newlib/string.h:
+
+/home/alex/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c:
+
+/home/alex/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c:
+
+/usr/include/newlib/strings.h:
+
+/home/alex/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h:
+
+/home/alex/pico/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h:
+
+/usr/include/newlib/sys/_timespec.h:
+
+/home/alex/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c:
+
+/home/alex/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c:
+
+/home/alex/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c:
+
+/home/alex/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c:
+
+/home/alex/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c:
+
+/usr/include/newlib/c++/13.2.1/ext/type_traits.h:
+
+/home/alex/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c:
+
+/home/alex/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c:
+
+/home/alex/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h:
+
+/home/alex/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c:
 
 /home/alex/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c:
 
@@ -4165,16 +4371,6 @@ generated/pico_base/pico/version.h:
 
 /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb_dpram.h:
 
-/home/alex/pico/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h:
-
-/home/alex/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c:
-
-/home/alex/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c:
-
-/usr/include/newlib/machine/stdlib.h:
-
-/usr/include/newlib/sys/_stdint.h:
-
 /home/alex/pico/pico-sdk/src/common/hardware_claim/claim.c:
 
 /home/alex/pico/pico-sdk/src/common/hardware_claim/include/hardware/claim.h:
@@ -4183,19 +4379,9 @@ generated/pico_base/pico/version.h:
 
 /home/alex/pico/pico-sdk/src/common/pico_sync/mutex.c:
 
-/home/alex/pico/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h:
-
 /home/alex/pico/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h:
 
 /home/alex/pico/pico-sdk/src/common/pico_sync/sem.c:
-
-/home/alex/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c:
-
-/home/alex/pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h:
-
-/home/alex/pico/pico-sdk/src/rp2_common/pico_double/double_math.c:
-
-/home/alex/pico/pico-sdk/src/common/pico_time/time.c:
 
 /home/alex/pico/pico-sdk/src/common/pico_sync/include/pico/sync.h:
 
@@ -4214,10 +4400,6 @@ generated/pico_base/pico/version.h:
 /home/alex/pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h:
 
 /home/alex/pico/pico-sdk/src/rp2_common/hardware_xip_cache/include/hardware/xip_cache.h:
-
-/home/alex/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h:
-
-/usr/include/newlib/machine/types.h:
 
 /home/alex/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h:
 
@@ -4255,17 +4437,13 @@ generated/pico_base/pico/version.h:
 
 /home/alex/pico/pico-sdk/src/rp2040/pico_platform/platform.c:
 
+/usr/include/newlib/c++/13.2.1/tr1/poly_hermite.tcc:
+
 /home/alex/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c:
 
 /home/alex/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c:
 
-/usr/lib/gcc/arm-none-eabi/13.2.1/include/float.h:
-
-/usr/include/newlib/c++/13.2.1/cstdlib:
-
 /home/alex/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c:
-
-/home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/ssi.h:
 
 /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/ssi.h:
 
@@ -4287,60 +4465,6 @@ generated/pico_base/pico/version.h:
 
 /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h:
 
-/home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/psm.h:
-
-/home/alex/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c:
-
-/home/alex/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h:
-
-/usr/include/newlib/sys/_timespec.h:
-
-/home/alex/pico/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h:
-
 /home/alex/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c:
 
 /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/vreg_and_chip_reset.h:
-
-/home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_qspi.h:
-
-/home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/vreg_and_chip_reset.h:
-
-/home/alex/pico/pico-sdk/src/rp2_common/hardware_vreg/include/hardware/vreg.h:
-
-/home/alex/pico/pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h:
-
-/home/alex/pico/pico-sdk/src/rp2_common/hardware_pwm/include/hardware/pwm.h:
-
-/home/alex/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c:
-
-/home/alex/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c:
-
-/home/alex/pico/pico-sdk/src/rp2_common/pico_atomic/include/stdatomic.h:
-
-/usr/lib/gcc/arm-none-eabi/13.2.1/include/stdatomic.h:
-
-/home/alex/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c:
-
-/home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h:
-
-/home/alex/pico/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h:
-
-/home/alex/pico/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h:
-
-/home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h:
-
-/home/alex/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c:
-
-/usr/include/newlib/sys/stat.h:
-
-/usr/include/newlib/sys/unistd.h:
-
-/home/alex/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c:
-
-/home/alex/pico/pico-sdk/src/rp2_common/pico_double/include/pico/double.h:
-
-/home/alex/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c:
-
-/home/alex/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include/pico/fix/rp2040_usb_device_enumeration.h:
-
-/home/alex/pico/pico-sdk/src/rp2_common/pico_flash/flash.c:
