@@ -21,7 +21,7 @@ add_executable(test main.cpp
                     ServoMotor.cpp)
 
 #Collego librerie necessarie
-target_link_libraries(test pico_stdlib hardware_adc hardware_pwm)
+target_link_libraries(test pico_stdlib hardware_adc hardware_pwm hardware_i2c)
 
 #Disabilita UART fisica e usiamo l'usb
 pico_enable_stdio_usb(test 1)
