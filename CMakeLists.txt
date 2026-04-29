@@ -18,7 +18,9 @@ pico_sdk_init()
 #Definisco l'eseguibile finale
 add_executable(test main.cpp
                     Joystick.cpp
-                    ServoMotor.cpp)
+                    ServoMotor.cpp
+                    Qmc5883l.cpp
+                    )
 
 #Collego librerie necessarie
 target_link_libraries(test pico_stdlib hardware_adc hardware_pwm hardware_i2c)

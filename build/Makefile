@@ -231,6 +231,30 @@ Joystick.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/Joystick.cpp.s
 .PHONY : Joystick.cpp.s
 
+Qmc5883l.o: Qmc5883l.cpp.o
+.PHONY : Qmc5883l.o
+
+# target to build an object file
+Qmc5883l.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/Qmc5883l.cpp.o
+.PHONY : Qmc5883l.cpp.o
+
+Qmc5883l.i: Qmc5883l.cpp.i
+.PHONY : Qmc5883l.i
+
+# target to preprocess a source file
+Qmc5883l.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/Qmc5883l.cpp.i
+.PHONY : Qmc5883l.cpp.i
+
+Qmc5883l.s: Qmc5883l.cpp.s
+.PHONY : Qmc5883l.s
+
+# target to generate assembly for a file
+Qmc5883l.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/Qmc5883l.cpp.s
+.PHONY : Qmc5883l.cpp.s
+
 ServoMotor.o: ServoMotor.cpp.o
 .PHONY : ServoMotor.o
 
@@ -2113,6 +2137,9 @@ help:
 	@echo "... Joystick.o"
 	@echo "... Joystick.i"
 	@echo "... Joystick.s"
+	@echo "... Qmc5883l.o"
+	@echo "... Qmc5883l.i"
+	@echo "... Qmc5883l.s"
 	@echo "... ServoMotor.o"
 	@echo "... ServoMotor.i"
 	@echo "... ServoMotor.s"
