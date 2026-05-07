@@ -43,6 +43,29 @@ CMakeFiles/test.dir/Qmc5883l.cpp.o: \
  /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
  /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
  /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+ /home/alex/pico/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
+ /home/alex/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+ /home/alex/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+ /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+ /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+ /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+ /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+ /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+ /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+ /home/alex/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+ /home/alex/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+ /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+ /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+ /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+ /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+ /home/alex/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+ /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+ /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+ /home/alex/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+ /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+ /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+ /home/alex/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
  /usr/include/newlib/c++/13.2.1/cmath \
  /usr/include/newlib/c++/13.2.1/bits/requires_hosted.h \
  /usr/include/newlib/c++/13.2.1/bits/cpp_type_traits.h \
@@ -84,6 +107,4 @@ CMakeFiles/test.dir/Qmc5883l.cpp.o: \
  /usr/include/newlib/c++/13.2.1/tr1/poly_hermite.tcc \
  /usr/include/newlib/c++/13.2.1/tr1/poly_laguerre.tcc \
  /usr/include/newlib/c++/13.2.1/tr1/riemann_zeta.tcc \
- /usr/include/newlib/stdio.h \
- /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
- /usr/include/newlib/sys/stdio.h
+ /usr/include/newlib/stdio.h /usr/include/newlib/sys/stdio.h

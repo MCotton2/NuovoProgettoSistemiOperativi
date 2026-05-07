@@ -1,48 +1,37 @@
-#pragma once 
+#pragma once
 
-#include <stdint.h> 
-
-//Struttura per lettura magnetometro
+#include <stdint.h>
 
 struct QmcData {
-
     int16_t x;
     int16_t y;
     int16_t z;
-
 };
-
-//Classe per Qmc5883l
 
 class Qmc5883l {
+private:
+    uint8_t address;
 
-    private:
-        uint8_t address;
+    int16_t x_min;
+    int16_t x_max;
+    int16_t y_min;
+    int16_t y_max;
 
-        // Valori minimi e massimi osservati durante la calibrazione. Stimano l'offset del sensore
+    void writeRegister(uint8_t reg, uint8_t value);
+    void readRegisters(uint8_t start_reg, uint8_t *buffer, uint8_t length);
 
-        int16_t x_min;
-        int16_t x_max;
-        int16_t y_min;
-        int16_t y_max;
+public:
+    Qmc5883l(uint8_t addr = 0x2C);
 
-        void writeRegister(uint8_t reg, uint8_t value);
-        void readRegisters(uint8_t start_reg, uint8_t *buffer, uint8_t length);
+    void init();
 
-    public:
-        Qmc5883l(uint8_t addr = 0x0D);
+    QmcData readRaw();
 
-        void init();
+    float getHeading();
 
-        QmcData readRaw();
+    void updateCalibration();
 
-        float getHeading();
+    float getCalibrationHeading();
 
-        void updateCalibration();
-
-        float getCalibrationHeading();
-
-        void printCalibration();
-
+    void printCalibration();
 };
-
