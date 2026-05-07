@@ -250,6 +250,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Bmp280.cpp" "CMakeFiles/test.dir/Bmp280.cpp.o" "gcc" "CMakeFiles/test.dir/Bmp280.cpp.o.d"
   "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Joystick.cpp" "CMakeFiles/test.dir/Joystick.cpp.o" "gcc" "CMakeFiles/test.dir/Joystick.cpp.o.d"
   "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Qmc5883l.cpp" "CMakeFiles/test.dir/Qmc5883l.cpp.o" "gcc" "CMakeFiles/test.dir/Qmc5883l.cpp.o.d"
+  "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/SDLogger.cpp" "CMakeFiles/test.dir/SDLogger.cpp.o" "gcc" "CMakeFiles/test.dir/SDLogger.cpp.o.d"
   "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/ServoMotor.cpp" "CMakeFiles/test.dir/ServoMotor.cpp.o" "gcc" "CMakeFiles/test.dir/ServoMotor.cpp.o.d"
   "/home/alex/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp" "CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o" "gcc" "CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o.d"
   "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/main.cpp" "CMakeFiles/test.dir/main.cpp.o" "gcc" "CMakeFiles/test.dir/main.cpp.o.d"

@@ -293,6 +293,101 @@ CMakeFiles/test.dir/Qmc5883l.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Oper
   /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
 
+CMakeFiles/test.dir/SDLogger.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/SDLogger.cpp \
+  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/SDLogger.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.h \
+  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffconf.h \
+  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/f_util.h \
+  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/hw_config.h \
+  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.h \
+  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.h \
+  /home/alex/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /home/alex/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/alex/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/alex/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/alex/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/alex/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/alex/pico/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
+  /home/alex/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/alex/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/alex/pico/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/alex/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma_debug.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+  /home/alex/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/alex/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/alex/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/alex/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/alex/pico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
+  /home/alex/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /home/alex/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/alex/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/alex/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
+  /home/alex/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/alex/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/alex/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/alex/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+  /home/alex/pico/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /home/alex/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/alex/pico/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/alex/pico/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/alex/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/alex/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h \
+  /usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h \
+  /usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h \
+  /usr/include/newlib/c++/13.2.1/cassert \
+  /usr/include/newlib/c++/13.2.1/pstl/pstl_config.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/stdio.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/sys/stdio.h \
+  /usr/include/newlib/sys/string.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
+
 CMakeFiles/test.dir/ServoMotor.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/ServoMotor.cpp \
   /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/ServoMotor.h \
   generated/pico_base/pico/config_autogen.h \
@@ -4640,16 +4735,12 @@ CMakeFiles/test.dir/main.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Operativ
   /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Bmp280.h \
   /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Joystick.h \
   /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Qmc5883l.h \
+  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/SDLogger.h \
   /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/ServoMotor.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
   /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.h \
   /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffconf.h \
-  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/f_util.h \
-  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/my_debug.h \
-  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/hw_config.h \
-  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.h \
-  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.h \
   /home/alex/pico/pico-sdk/src/boards/include/boards/pico.h \
   /home/alex/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
   /home/alex/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
@@ -4657,14 +4748,10 @@ CMakeFiles/test.dir/main.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Operativ
   /home/alex/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
   /home/alex/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
   /home/alex/pico/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
-  /home/alex/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  /home/alex/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  /home/alex/pico/pico-sdk/src/common/pico_sync/include/pico/sem.h \
   /home/alex/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
   /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h \
   /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h \
   /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
   /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
   /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
@@ -4674,12 +4761,9 @@ CMakeFiles/test.dir/main.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Operativ
   /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pwm.h \
   /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
   /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
-  /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h \
   /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
   /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
   /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h \
-  /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
-  /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma_debug.h \
   /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
   /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
   /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
@@ -4690,7 +4774,6 @@ CMakeFiles/test.dir/main.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Operativ
   /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
   /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
   /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
-  /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
   /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
   /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
   /home/alex/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
@@ -4698,15 +4781,11 @@ CMakeFiles/test.dir/main.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Operativ
   /home/alex/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
   /home/alex/pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h \
   /home/alex/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/alex/pico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
   /home/alex/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
   /home/alex/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
   /home/alex/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
   /home/alex/pico/pico-sdk/src/rp2_common/hardware_pwm/include/hardware/pwm.h \
   /home/alex/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  /home/alex/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
-  /home/alex/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /home/alex/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
   /home/alex/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
   /home/alex/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
   /home/alex/pico/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
@@ -4806,12 +4885,6 @@ CMakeFiles/test.dir/main.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Operativ
 
 /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c:
 
-/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.h:
-
-/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/hw_config.h:
-
-/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffconf.h:
-
 /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/hw_config.c:
 
 /home/alex/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c:
@@ -4853,10 +4926,6 @@ CMakeFiles/test.dir/main.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Operativ
 /home/alex/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c:
 
 /home/alex/pico/pico-sdk/src/rp2_common/pico_malloc/include/pico/malloc.h:
-
-/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.h:
-
-/home/alex/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c:
 
 /home/alex/pico/pico-sdk/src/rp2_common/pico_float/include/pico/float.h:
 
@@ -4934,9 +5003,23 @@ CMakeFiles/test.dir/main.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Operativ
 
 /home/alex/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c:
 
-/home/alex/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h:
+/home/alex/pico/pico-sdk/src/rp2_common/hardware_rtc/include/hardware/rtc.h:
 
-/home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h:
+/home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xosc.h:
+
+/home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/rtc.h:
+
+/home/alex/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c:
+
+/home/alex/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c:
+
+/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c:
+
+/home/alex/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c:
+
+/home/alex/pico/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h:
+
+/home/alex/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h:
 
 /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Qmc5883l.h:
 
@@ -4945,10 +5028,6 @@ CMakeFiles/test.dir/main.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Operativ
 /usr/include/newlib/sys/time.h:
 
 /usr/include/newlib/c++/13.2.1/cstdint:
-
-/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.h:
-
-/usr/include/newlib/c++/13.2.1/bits/move.h:
 
 /home/alex/pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h:
 
@@ -4969,6 +5048,10 @@ CMakeFiles/test.dir/main.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Operativ
 /usr/include/newlib/machine/_default_types.h:
 
 /home/alex/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c:
+
+/home/alex/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h:
+
+/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/SDLogger.h:
 
 /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/my_debug.h:
 
@@ -5032,6 +5115,8 @@ CMakeFiles/test.dir/main.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Operativ
 
 /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h:
 
+/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.h:
+
 /home/alex/pico/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h:
 
 /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c:
@@ -5074,6 +5159,12 @@ CMakeFiles/test.dir/main.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Operativ
 
 /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h:
 
+/home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/rtc.h:
+
+/usr/include/newlib/sys/lock.h:
+
+/usr/include/newlib/c++/13.2.1/bits/requires_hosted.h:
+
 /usr/include/newlib/c++/13.2.1/stdlib.h:
 
 /usr/include/newlib/sys/_locale.h:
@@ -5108,11 +5199,7 @@ CMakeFiles/test.dir/main.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Operativ
 
 /home/alex/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h:
 
-/home/alex/pico/pico-sdk/src/rp2_common/hardware_rtc/include/hardware/rtc.h:
-
 /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h:
-
-/home/alex/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h:
 
 /usr/include/newlib/c++/13.2.1/bits/ptr_traits.h:
 
@@ -5131,6 +5218,8 @@ CMakeFiles/test.dir/main.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Operativ
 /usr/include/newlib/machine/stdlib.h:
 
 /usr/include/newlib/sys/_stdint.h:
+
+/home/alex/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h:
 
 /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/f_util.h:
 
@@ -5168,8 +5257,6 @@ generated/pico_base/pico/config_autogen.h:
 
 /home/alex/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h:
 
-/home/alex/pico/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h:
-
 /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h:
 
 /usr/include/newlib/c++/13.2.1/tr1/poly_laguerre.tcc:
@@ -5178,15 +5265,13 @@ generated/pico_base/pico/config_autogen.h:
 
 /home/alex/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c:
 
-/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/ServoMotor.cpp:
-
-/home/alex/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h:
-
 /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c:
 
 /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/diskio.h:
 
 /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_qspi.h:
+
+/home/alex/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.h:
 
 /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h:
 
@@ -5207,8 +5292,6 @@ generated/pico_base/pico/config_autogen.h:
 /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h:
 
 /home/alex/pico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h:
-
-/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/ServoMotor.h:
 
 /usr/include/newlib/c++/13.2.1/cassert:
 
@@ -5266,6 +5349,8 @@ generated/pico_base/pico/version.h:
 
 /home/alex/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h:
 
+/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/hw_config.h:
+
 /home/alex/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h:
 
 /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/vreg_and_chip_reset.h:
@@ -5308,6 +5393,46 @@ generated/pico_base/pico/version.h:
 
 /home/alex/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c:
 
+/home/alex/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c:
+
+/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.h:
+
+/usr/include/newlib/sys/types.h:
+
+/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffconf.h:
+
+/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/ServoMotor.h:
+
+/usr/include/newlib/c++/13.2.1/bits/move.h:
+
+/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.h:
+
+/home/alex/pico/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h:
+
+/home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h:
+
+/home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h:
+
+/home/alex/pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h:
+
+/home/alex/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c:
+
+/home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma_debug.h:
+
+/usr/include/newlib/c++/13.2.1/tr1/hypergeometric.tcc:
+
+/home/alex/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h:
+
+/home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h:
+
+/usr/include/newlib/string.h:
+
+/usr/include/newlib/strings.h:
+
+/home/alex/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h:
+
+/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/ServoMotor.cpp:
+
 /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pwm.h:
 
 /home/alex/pico/pico-sdk/src/common/pico_time/include/pico/time.h:
@@ -5332,10 +5457,6 @@ generated/pico_base/pico/version.h:
 
 /home/alex/pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h:
 
-/home/alex/pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h:
-
-/home/alex/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c:
-
 /home/alex/pico/pico-sdk/lib/tinyusb/src/tusb_option.h:
 
 /home/alex/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h:
@@ -5352,25 +5473,11 @@ generated/pico_base/pico/version.h:
 
 /home/alex/pico/pico-sdk/lib/tinyusb/src/device/usbd.h:
 
-/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c:
-
-/home/alex/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c:
-
 /home/alex/pico/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h:
-
-/usr/include/newlib/c++/13.2.1/tr1/hypergeometric.tcc:
-
-/home/alex/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h:
-
-/home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h:
 
 /home/alex/pico/pico-sdk/src/rp2_common/pico_printf/printf.c:
 
 /usr/include/newlib/inttypes.h:
-
-/usr/include/newlib/string.h:
-
-/usr/include/newlib/strings.h:
 
 /home/alex/pico/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h:
 
@@ -5410,8 +5517,6 @@ generated/pico_base/pico/version.h:
 
 /home/alex/pico/pico-sdk/lib/tinyusb/src/tusb.h:
 
-/home/alex/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.h:
-
 /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb_dpram.h:
 
 /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Bmp280.cpp:
@@ -5437,6 +5542,8 @@ generated/pico_base/pico/version.h:
 /home/alex/pico/pico-sdk/src/common/pico_util/datetime.c:
 
 /usr/include/newlib/machine/endian.h:
+
+/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/SDLogger.cpp:
 
 /usr/include/newlib/machine/time.h:
 
@@ -5470,13 +5577,15 @@ generated/pico_base/pico/version.h:
 
 /usr/include/newlib/sys/timespec.h:
 
-/usr/include/newlib/sys/types.h:
-
 /home/alex/pico/pico-sdk/src/common/pico_util/pheap.c:
 
 /usr/include/newlib/sys/_pthreadtypes.h:
 
 /home/alex/pico/pico-sdk/src/common/pico_util/include/pico/util/pheap.h:
+
+/home/alex/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c:
+
+/home/alex/pico/pico-sdk/src/common/pico_util/include/pico/util/queue.h:
 
 /home/alex/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h:
 
@@ -5490,12 +5599,6 @@ generated/pico_base/pico/version.h:
 
 /home/alex/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c:
 
-/home/alex/pico/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h:
-
-/home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h:
-
-/home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma_debug.h:
-
 /home/alex/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c:
 
 /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/ssi.h:
@@ -5505,23 +5608,3 @@ generated/pico_base/pico/version.h:
 /usr/include/newlib/sys/cdefs.h:
 
 /home/alex/pico/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h:
-
-/home/alex/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h:
-
-/home/alex/pico/pico-sdk/src/common/pico_util/include/pico/util/queue.h:
-
-/home/alex/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c:
-
-/home/alex/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c:
-
-/home/alex/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c:
-
-/usr/include/newlib/sys/lock.h:
-
-/usr/include/newlib/c++/13.2.1/bits/requires_hosted.h:
-
-/home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/rtc.h:
-
-/home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xosc.h:
-
-/home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/rtc.h:

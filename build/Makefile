@@ -279,6 +279,30 @@ Qmc5883l.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/Qmc5883l.cpp.s
 .PHONY : Qmc5883l.cpp.s
 
+SDLogger.o: SDLogger.cpp.o
+.PHONY : SDLogger.o
+
+# target to build an object file
+SDLogger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/SDLogger.cpp.o
+.PHONY : SDLogger.cpp.o
+
+SDLogger.i: SDLogger.cpp.i
+.PHONY : SDLogger.i
+
+# target to preprocess a source file
+SDLogger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/SDLogger.cpp.i
+.PHONY : SDLogger.cpp.i
+
+SDLogger.s: SDLogger.cpp.s
+.PHONY : SDLogger.s
+
+# target to generate assembly for a file
+SDLogger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/SDLogger.cpp.s
+.PHONY : SDLogger.cpp.s
+
 ServoMotor.o: ServoMotor.cpp.o
 .PHONY : ServoMotor.o
 
@@ -2575,6 +2599,9 @@ help:
 	@echo "... Qmc5883l.o"
 	@echo "... Qmc5883l.i"
 	@echo "... Qmc5883l.s"
+	@echo "... SDLogger.o"
+	@echo "... SDLogger.i"
+	@echo "... SDLogger.s"
 	@echo "... ServoMotor.o"
 	@echo "... ServoMotor.i"
 	@echo "... ServoMotor.s"
