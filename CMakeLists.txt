@@ -20,6 +20,7 @@ add_executable(test main.cpp
                     Joystick.cpp
                     ServoMotor.cpp
                     Qmc5883l.cpp
+                    Bmp280.cpp
                     )
 
 #Collego librerie necessarie

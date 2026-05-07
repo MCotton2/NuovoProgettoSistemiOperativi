@@ -207,6 +207,30 @@ pico_status_led_ws2812_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/build
 .PHONY : pico_status_led_ws2812_pio_h/fast
 
+Bmp280.o: Bmp280.cpp.o
+.PHONY : Bmp280.o
+
+# target to build an object file
+Bmp280.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/Bmp280.cpp.o
+.PHONY : Bmp280.cpp.o
+
+Bmp280.i: Bmp280.cpp.i
+.PHONY : Bmp280.i
+
+# target to preprocess a source file
+Bmp280.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/Bmp280.cpp.i
+.PHONY : Bmp280.cpp.i
+
+Bmp280.s: Bmp280.cpp.s
+.PHONY : Bmp280.s
+
+# target to generate assembly for a file
+Bmp280.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/Bmp280.cpp.s
+.PHONY : Bmp280.cpp.s
+
 Joystick.o: Joystick.cpp.o
 .PHONY : Joystick.o
 
@@ -2134,6 +2158,9 @@ help:
 	@echo "... bs2_default"
 	@echo "... bs2_default_library"
 	@echo "... test"
+	@echo "... Bmp280.o"
+	@echo "... Bmp280.i"
+	@echo "... Bmp280.s"
 	@echo "... Joystick.o"
 	@echo "... Joystick.i"
 	@echo "... Joystick.s"
