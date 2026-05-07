@@ -52,6 +52,8 @@ CMakeFiles/test.dir/main.cpp.o: \
  /usr/include/newlib/c++/13.2.1/tr1/poly_hermite.tcc \
  /usr/include/newlib/c++/13.2.1/tr1/poly_laguerre.tcc \
  /usr/include/newlib/c++/13.2.1/tr1/riemann_zeta.tcc \
+ /usr/include/newlib/string.h /usr/include/newlib/sys/_locale.h \
+ /usr/include/newlib/strings.h /usr/include/newlib/sys/string.h \
  /home/alex/pico/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
  /home/alex/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
  /home/alex/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
@@ -115,4 +117,23 @@ CMakeFiles/test.dir/main.cpp.o: \
  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Qmc5883l.h \
  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Joystick.h \
  /usr/include/newlib/c++/13.2.1/cstdint \
- /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/ServoMotor.h
+ /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/ServoMotor.h \
+ /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.h \
+ /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffconf.h \
+ /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/f_util.h \
+ /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/hw_config.h \
+ /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.h \
+ /home/alex/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+ /home/alex/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+ /home/alex/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+ /home/alex/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+ /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.h \
+ /home/alex/pico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
+ /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
+ /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h \
+ /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma_debug.h \
+ /home/alex/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
+ /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
+ /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h \
+ /home/alex/pico/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+ /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/my_debug.h

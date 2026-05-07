@@ -40,6 +40,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/pico-sdk/cmake_install.cmake")
+  include("/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/cmake_install.cmake")
 
 endif()
 

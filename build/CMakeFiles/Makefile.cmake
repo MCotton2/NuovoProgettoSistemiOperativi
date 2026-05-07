@@ -17,6 +17,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "_deps/picotool/picotoolTargets-release.cmake"
   "_deps/picotool/picotoolTargets.cmake"
   "pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/pioasmBuild-mkdirs.cmake"
+  "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/CMakeLists.txt"
   "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/pico_sdk_import.cmake"
   "/home/alex/pico/pico-sdk/CMakeLists.txt"
   "/home/alex/pico/pico-sdk/cmake/Platform/PICO.cmake"
@@ -288,6 +289,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "pico-sdk/src/rp2_common/pico_stdio/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/src/rp2_common/pico_stdlib/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/docs/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
