@@ -1,5 +1,3 @@
-// Test BMP/BME280
-
 #include <stdio.h>
 #include <math.h>
 #include <string.h>
@@ -13,6 +11,7 @@
 #include "Qmc5883l.h"
 #include "Joystick.h"
 #include "ServoMotor.h"
+#include "LoRaE220Transmitter.h"
 
 //=========== SD Card ====================
 
@@ -52,6 +51,7 @@
 
 //========================================
 
+
 //================ Main =============================
 
 int main() {
@@ -85,6 +85,8 @@ int main() {
 
     SDLogger logger;
 
+    LoRaTransmitter lora;
+
     //Inizializzazione moduli
 
     joystick.init();
@@ -98,6 +100,9 @@ int main() {
 
     bmp.init();
     printf("BMP/BME inizializzato\n");
+
+    lora.init();
+    printf("LoRa inizializzata\n");
 
     if(!logger.init()) {
 
@@ -195,6 +200,7 @@ int main() {
                 sizeof(line),
                 "%lu, %.2f, %d, %d, %d, %.2f, %.2f, %.2f, %.2f, %.2f\n",
                 time_ms,
+                servo_angle,
                 mag.x,
                 mag.y,
                 mag.z,
@@ -206,6 +212,7 @@ int main() {
             );
 
             logger.writeLine(line);
+            lora.sendMessage(line);
 
 
         }

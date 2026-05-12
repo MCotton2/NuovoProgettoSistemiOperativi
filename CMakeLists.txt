@@ -25,10 +25,11 @@ add_executable(test main.cpp
                     Bmp280.cpp
                     hw_config.c
                     SDLogger.cpp
+                    LoRaE220Transmitter.cpp
                     )
 
 #Collego librerie necessarie
-target_link_libraries(test pico_stdlib hardware_adc hardware_pwm hardware_i2c FatFs_SPI hardware_spi)
+target_link_libraries(test pico_stdlib hardware_adc hardware_pwm hardware_i2c FatFs_SPI hardware_spi hardware_uart)
 
 
 
