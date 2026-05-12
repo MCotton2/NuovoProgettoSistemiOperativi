@@ -15,16 +15,22 @@ set(CMAKE_CXX_STANDARD 17)
 #Inizializzo il Pico SDK
 pico_sdk_init()
 
+add_subdirectory(lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI)
+
 #Definisco l'eseguibile finale
 add_executable(test main.cpp
                     Joystick.cpp
                     ServoMotor.cpp
                     Qmc5883l.cpp
                     Bmp280.cpp
+                    hw_config.c
+                    SDLogger.cpp
                     )
 
 #Collego librerie necessarie
-target_link_libraries(test pico_stdlib hardware_adc hardware_pwm hardware_i2c)
+target_link_libraries(test pico_stdlib hardware_adc hardware_pwm hardware_i2c FatFs_SPI hardware_spi)
+
+
 
 #Disabilita UART fisica e usiamo l'usb
 pico_enable_stdio_usb(test 1)

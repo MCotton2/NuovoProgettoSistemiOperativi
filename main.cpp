@@ -1,7 +1,8 @@
 // Test BMP/BME280
 
 #include <stdio.h>
-#include<math.h>
+#include <math.h>
+#include <string.h>
 
 #include "pico/stdlib.h"
 #include "hardware/i2c.h"
@@ -12,6 +13,12 @@
 #include "Qmc5883l.h"
 #include "Joystick.h"
 #include "ServoMotor.h"
+
+//=========== SD Card ====================
+
+#include "SDLogger.h"
+
+//=========================================
 
 
 //=========== Configurazione I2C =================
@@ -26,7 +33,15 @@
 //============ Servo ====================
 
 #define SERVO_PIN 15
-#define PWM_WRAP 20000
+
+//=======================================
+
+//============ Joystick ==================
+
+#define JOYSTICK_PIN 26
+#define JOYSTICK_ADC_CHANNEL 0
+
+//========================================
 
 //=======================================
 
@@ -44,11 +59,11 @@ int main() {
     stdio_init_all();
     sleep_ms(5000);
 
-    printf("======= Avvio Sistema =========\n");
+    printf("============== AVVIO SISTEMA COMPLETO ===================\n");
 
-    //Inizializzazione i2c
+    //Inizializzazione I2C
 
-    i2c_init(I2C_PORT, 400000);
+    i2c_init(I2C_PORT, 100*1000);
 
     gpio_set_function(SDA_PIN, GPIO_FUNC_I2C);
     gpio_set_function(SCL_PIN, GPIO_FUNC_I2C);
@@ -56,76 +71,150 @@ int main() {
     gpio_pull_up(SDA_PIN);
     gpio_pull_up(SCL_PIN);
 
-    printf("I2C inizializzato\n");
+    printf("Inizializzazione completata di I2C\n");
 
-    //Inizializzazione Joystick
-
-    
     //Creazione oggetti
 
     Joystick joystick(JOYSTICK_PIN, JOYSTICK_ADC_CHANNEL);
-
+    
     ServoMotor servo(SERVO_PIN);
-
-    joystick.init();
-
-    printf("Joystick inizializzato\n");
-
-    servo.init();
-
-    printf("Servo inizializzato\n");
-
-    //Inizializzazione magnetometro
 
     Qmc5883l magnetometer(0x2C);
 
-    magnetometer.init();
-
-    printf("Magnetometro inizializzato\n");
-
-    //Inizializzazione BMP280
-
     Bmp280 bmp(0x76);
 
+    SDLogger logger;
+
+    //Inizializzazione moduli
+
+    joystick.init();
+    printf("Inizializzato joystick\n");
+
+    servo.init();
+    printf("Servo inizializzato\n");
+
+    magnetometer.init();
+    printf("Magnetometro inizializzato\n");
+
     bmp.init();
+    printf("BMP/BME inizializzato\n");
 
-    printf("Inizializzazione BMP completata\n");
+    if(!logger.init()) {
 
-    //Ciclo principale
+        printf("Errore inizializzazione SD\n");
+
+        while(true) {
+
+            sleep_ms(1000);
+
+        }
+
+    }
+
+    if(!logger.openFile("flight_log.csv")) {
+
+        printf("Errore apertura file csv\n");
+
+        while(true) {
+
+            sleep_ms(1000);
+
+        }
+
+    }
+
+    //Header CSV
+
+    logger.writeLine("Tempo ms, Servo Gradi, Mag X, Mag Y, Mag Z, Heading Raw, Heading calibrato, Temperatura C, Pressione Pa, Altitudine m\n");
+
+    printf("Logger SD Pronto\n");
+
+    printf("=========================== Sistema pronto ===============================\n");
+
+    absolute_time_t last_log_time = get_absolute_time();
+
+    //Loop principale
 
     while(true) {
-
-        //Joystick -> Servo
 
         float servo_angle = joystick.getAngle();
 
         servo.setAngle(servo_angle);
 
-        //Magnetometro
+        //Sensori e logging ogni 500 ms
 
-        magnetometer.updateCalibration();
+        if(absolute_time_diff_us(last_log_time, get_absolute_time()) > 500000) {
 
-        QmcData mag = magnetometer.readRaw();
+    printf("=========================== Sistema pronto ===============================\n");
+            last_log_time = get_absolute_time();
 
-        float heading = magnetometer.getCalibrationHeading();
+            //Magnetometro
 
-        //BMP280
+            QmcData mag = magnetometer.readRaw();
 
-        float temperature = bmp.readTemperature();
+            magnetometer.updateCalibration();
 
-        float pressure = bmp.readPressure();
+            float heading_raw = magnetometer.getHeading();
 
-        float altitude = bmp.readAltitude();
+            float heading_calibrated = magnetometer.getCalibrationHeading();
 
-        //Stampa
+            //BMP/BME280
 
-        printf("Servo: %.2f gradi\n Mag X:%d Y:%d Z:%d\n Heading: %.2f gradi\n Temperatura: %.2f C\n Pressione: %.2f Pa\n Altitudine: %.2f m\n", servo_angle, mag.x, mag.y, mag.z, heading, temperature, pressure, altitude);
-        
-        magnetometer.printCalibration();
-        printf("\n");
-        sleep_ms(100);
+            float temperature = bmp.readTemperature();
+
+            float pressure = bmp.readPressure();
+
+            float altitude = bmp.readAltitude();
+
+            //Tempo
+
+            uint32_t time_ms = to_ms_since_boot(get_absolute_time());
+
+            //Stampa
+
+            printf(
+                "t:%lu ms | Servo: %.2f | Mag X:%d Y:%d Z:%d | Heading: %.2f | Heading Calibrato: %.2f | Temp: %.2f C | Press: %.2f Pa | Alt: %.2f m\n", 
+                time_ms,
+                servo_angle,
+                mag.x,
+                mag.y,
+                mag.z,
+                heading_raw,
+                heading_calibrated,
+                temperature,
+                pressure,
+                altitude
+            );
+
+            //Scrittura su CSV
+
+            char line[256];
+
+            snprintf(
+                line,
+                sizeof(line),
+                "%lu, %.2f, %d, %d, %d, %.2f, %.2f, %.2f, %.2f, %.2f\n",
+                time_ms,
+                mag.x,
+                mag.y,
+                mag.z,
+                heading_raw,
+                heading_calibrated,
+                temperature,
+                pressure,
+                altitude
+            );
+
+            logger.writeLine(line);
+
+
+        }
+
+        sleep_ms(10);
 
 
     }
+
+    return 0;
 
 }
