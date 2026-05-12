@@ -1,5 +1,7 @@
-CMakeFiles/test.dir/main.cpp.o: \
- /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/main.cpp \
+CMakeFiles/test.dir/LoRaE220Transmitter.cpp.o: \
+ /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/LoRaE220Transmitter.cpp \
+ /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/LoRaE220Transmitter.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
  /usr/include/newlib/stdio.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
@@ -10,57 +12,17 @@ CMakeFiles/test.dir/main.cpp.o: \
  /usr/include/newlib/sys/reent.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
  /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/stdio.h \
- /usr/include/newlib/c++/13.2.1/math.h \
- /usr/include/newlib/c++/13.2.1/cmath \
- /usr/include/newlib/c++/13.2.1/bits/requires_hosted.h \
- /usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h \
- /usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h \
- /usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h \
- /usr/include/newlib/c++/13.2.1/pstl/pstl_config.h \
- /usr/include/newlib/c++/13.2.1/bits/cpp_type_traits.h \
- /usr/include/newlib/c++/13.2.1/ext/type_traits.h \
- /usr/include/newlib/math.h /usr/include/newlib/c++/13.2.1/bits/std_abs.h \
- /usr/include/newlib/c++/13.2.1/stdlib.h /usr/include/newlib/stdlib.h \
- /usr/include/newlib/machine/stdlib.h /usr/include/newlib/alloca.h \
- /usr/include/newlib/c++/13.2.1/bits/specfun.h \
- /usr/include/newlib/c++/13.2.1/bits/stl_algobase.h \
- /usr/include/newlib/c++/13.2.1/bits/functexcept.h \
- /usr/include/newlib/c++/13.2.1/bits/exception_defines.h \
- /usr/include/newlib/c++/13.2.1/ext/numeric_traits.h \
- /usr/include/newlib/c++/13.2.1/bits/stl_pair.h \
- /usr/include/newlib/c++/13.2.1/type_traits \
- /usr/include/newlib/c++/13.2.1/bits/move.h \
- /usr/include/newlib/c++/13.2.1/bits/utility.h \
- /usr/include/newlib/c++/13.2.1/bits/stl_iterator_base_types.h \
- /usr/include/newlib/c++/13.2.1/bits/stl_iterator_base_funcs.h \
- /usr/include/newlib/c++/13.2.1/bits/concept_check.h \
- /usr/include/newlib/c++/13.2.1/debug/assertions.h \
- /usr/include/newlib/c++/13.2.1/bits/stl_iterator.h \
- /usr/include/newlib/c++/13.2.1/bits/ptr_traits.h \
- /usr/include/newlib/c++/13.2.1/debug/debug.h \
- /usr/include/newlib/c++/13.2.1/bits/predefined_ops.h \
- /usr/include/newlib/c++/13.2.1/bit /usr/include/newlib/c++/13.2.1/limits \
- /usr/include/newlib/c++/13.2.1/tr1/gamma.tcc \
- /usr/include/newlib/c++/13.2.1/tr1/special_function_util.h \
- /usr/include/newlib/c++/13.2.1/tr1/bessel_function.tcc \
- /usr/include/newlib/c++/13.2.1/tr1/beta_function.tcc \
- /usr/include/newlib/c++/13.2.1/tr1/ell_integral.tcc \
- /usr/include/newlib/c++/13.2.1/tr1/exp_integral.tcc \
- /usr/include/newlib/c++/13.2.1/tr1/hypergeometric.tcc \
- /usr/include/newlib/c++/13.2.1/tr1/legendre_function.tcc \
- /usr/include/newlib/c++/13.2.1/tr1/modified_bessel_func.tcc \
- /usr/include/newlib/c++/13.2.1/tr1/poly_hermite.tcc \
- /usr/include/newlib/c++/13.2.1/tr1/poly_laguerre.tcc \
- /usr/include/newlib/c++/13.2.1/tr1/riemann_zeta.tcc \
- /usr/include/newlib/string.h /usr/include/newlib/sys/_locale.h \
- /usr/include/newlib/strings.h /usr/include/newlib/sys/string.h \
  /home/alex/pico/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
  /home/alex/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
  /home/alex/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
  /home/alex/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
- /usr/include/newlib/c++/13.2.1/cassert /usr/include/newlib/assert.h \
- /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+ /usr/include/newlib/c++/13.2.1/cassert \
+ /usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h \
+ /usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h \
+ /usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h \
+ /usr/include/newlib/c++/13.2.1/pstl/pstl_config.h \
+ /usr/include/newlib/assert.h \
  /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/generated/pico_base/pico/version.h \
  /home/alex/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
  /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/generated/pico_base/pico/config_autogen.h \
@@ -103,22 +65,4 @@ CMakeFiles/test.dir/main.cpp.o: \
  /home/alex/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
  /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
  /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
- /home/alex/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
- /home/alex/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
- /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
- /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
- /home/alex/pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h \
- /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h \
- /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h \
- /home/alex/pico/pico-sdk/src/rp2_common/hardware_pwm/include/hardware/pwm.h \
- /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pwm.h \
- /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pwm.h \
- /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Bmp280.h \
- /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Qmc5883l.h \
- /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Joystick.h \
- /usr/include/newlib/c++/13.2.1/cstdint \
- /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/ServoMotor.h \
- /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/LoRaE220Transmitter.h \
- /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/SDLogger.h \
- /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.h \
- /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffconf.h
+ /home/alex/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h

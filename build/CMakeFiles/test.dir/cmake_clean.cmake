@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/test.dir/Bmp280.cpp.o.d"
   "CMakeFiles/test.dir/Joystick.cpp.o"
   "CMakeFiles/test.dir/Joystick.cpp.o.d"
+  "CMakeFiles/test.dir/LoRaE220Transmitter.cpp.o"
+  "CMakeFiles/test.dir/LoRaE220Transmitter.cpp.o.d"
   "CMakeFiles/test.dir/Qmc5883l.cpp.o"
   "CMakeFiles/test.dir/Qmc5883l.cpp.o.d"
   "CMakeFiles/test.dir/SDLogger.cpp.o"

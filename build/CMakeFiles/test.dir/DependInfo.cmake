@@ -249,6 +249,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c" "CMakeFiles/test.dir/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.o" "gcc" "CMakeFiles/test.dir/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.o.d"
   "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Bmp280.cpp" "CMakeFiles/test.dir/Bmp280.cpp.o" "gcc" "CMakeFiles/test.dir/Bmp280.cpp.o.d"
   "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Joystick.cpp" "CMakeFiles/test.dir/Joystick.cpp.o" "gcc" "CMakeFiles/test.dir/Joystick.cpp.o.d"
+  "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/LoRaE220Transmitter.cpp" "CMakeFiles/test.dir/LoRaE220Transmitter.cpp.o" "gcc" "CMakeFiles/test.dir/LoRaE220Transmitter.cpp.o.d"
   "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Qmc5883l.cpp" "CMakeFiles/test.dir/Qmc5883l.cpp.o" "gcc" "CMakeFiles/test.dir/Qmc5883l.cpp.o.d"
   "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/SDLogger.cpp" "CMakeFiles/test.dir/SDLogger.cpp.o" "gcc" "CMakeFiles/test.dir/SDLogger.cpp.o.d"
   "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/ServoMotor.cpp" "CMakeFiles/test.dir/ServoMotor.cpp.o" "gcc" "CMakeFiles/test.dir/ServoMotor.cpp.o.d"

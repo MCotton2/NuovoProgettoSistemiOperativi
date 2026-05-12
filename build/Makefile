@@ -255,6 +255,30 @@ Joystick.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/Joystick.cpp.s
 .PHONY : Joystick.cpp.s
 
+LoRaE220Transmitter.o: LoRaE220Transmitter.cpp.o
+.PHONY : LoRaE220Transmitter.o
+
+# target to build an object file
+LoRaE220Transmitter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/LoRaE220Transmitter.cpp.o
+.PHONY : LoRaE220Transmitter.cpp.o
+
+LoRaE220Transmitter.i: LoRaE220Transmitter.cpp.i
+.PHONY : LoRaE220Transmitter.i
+
+# target to preprocess a source file
+LoRaE220Transmitter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/LoRaE220Transmitter.cpp.i
+.PHONY : LoRaE220Transmitter.cpp.i
+
+LoRaE220Transmitter.s: LoRaE220Transmitter.cpp.s
+.PHONY : LoRaE220Transmitter.s
+
+# target to generate assembly for a file
+LoRaE220Transmitter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/LoRaE220Transmitter.cpp.s
+.PHONY : LoRaE220Transmitter.cpp.s
+
 Qmc5883l.o: Qmc5883l.cpp.o
 .PHONY : Qmc5883l.o
 
@@ -2596,6 +2620,9 @@ help:
 	@echo "... Joystick.o"
 	@echo "... Joystick.i"
 	@echo "... Joystick.s"
+	@echo "... LoRaE220Transmitter.o"
+	@echo "... LoRaE220Transmitter.i"
+	@echo "... LoRaE220Transmitter.s"
 	@echo "... Qmc5883l.o"
 	@echo "... Qmc5883l.i"
 	@echo "... Qmc5883l.s"
