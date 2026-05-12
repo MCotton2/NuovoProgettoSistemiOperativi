@@ -28,8 +28,7 @@ Bmp280::Bmp280(uint8_t addr) {
     //Salvo indirizzo i2c del sensore
     address = addr;
 
-    //Pressione standard al livello del mare
-    sea_level_pressure = 101325.0f;
+    
 
     //t_fine parte da 0, verrà poi aggiornato
     t_fine = 0;
@@ -143,7 +142,10 @@ void Bmp280::init() {
 
     writeRegister(REG_CONFIG, 0xA0);
 
-    sleep_ms(100);
+    sleep_ms(1000);
+
+
+    
 
 }
 
@@ -282,7 +284,7 @@ float Bmp280::readAltitude() {
 
     float pressure = readPressure();
 
-    return 44330.0f * (1.0f - powf(pressure / sea_level_pressure, 0.1903f));
+    return 44330.0f * (1.0f - powf(pressure / 100800.0f, 0.1903f));
 
 
 

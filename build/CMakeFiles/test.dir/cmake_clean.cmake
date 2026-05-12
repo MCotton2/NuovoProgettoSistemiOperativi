@@ -9,8 +9,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/test.dir/Qmc5883l.cpp.o.d"
   "CMakeFiles/test.dir/SDLogger.cpp.o"
   "CMakeFiles/test.dir/SDLogger.cpp.o.d"
-  "CMakeFiles/test.dir/ServoMotor.cpp.o"
-  "CMakeFiles/test.dir/ServoMotor.cpp.o.d"
   "CMakeFiles/test.dir/home/alex/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o"
   "CMakeFiles/test.dir/home/alex/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o.d"
   "CMakeFiles/test.dir/home/alex/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o"

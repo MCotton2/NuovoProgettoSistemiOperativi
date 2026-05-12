@@ -18,7 +18,7 @@ pico_sdk_init()
 add_subdirectory(lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI)
 
 #Definisco l'eseguibile finale
-add_executable(test main.cpp LoRaReceiver)
+add_executable(test main.cpp LoRaReceiver ServoMotor.cpp)
 
 #Collego librerie necessarie
 target_link_libraries(test pico_stdlib hardware_adc hardware_pwm hardware_i2c FatFs_SPI hardware_spi hardware_uart)

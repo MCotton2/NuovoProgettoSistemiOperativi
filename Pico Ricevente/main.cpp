@@ -2,6 +2,9 @@
 
 #include "pico/stdlib.h"
 #include "LoRaReceiver.h"
+#include "ServoMotor.h"
+
+#define SERVO_PIN 15
 
 int main() {
 
@@ -14,6 +17,10 @@ int main() {
 
     receiver.init();
 
+    ServoMotor servo(SERVO_PIN);
+
+    servo.init();
+
     char message[256];
 
     while(true) {
@@ -23,6 +30,16 @@ int main() {
             printf("Ricevuto: %s\n", message);
 
         }
+
+        float servo_angle;
+
+        sscanf(
+            message,
+            "%*u,%f",
+            &servo_angle
+        );
+
+        servo.setAngle(servo_angle);
 
         sleep_ms(10);
 

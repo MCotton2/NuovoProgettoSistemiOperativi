@@ -10,7 +10,6 @@
 #include "Bmp280.h"
 #include "Qmc5883l.h"
 #include "Joystick.h"
-#include "ServoMotor.h"
 #include "LoRaE220Transmitter.h"
 
 //=========== SD Card ====================
@@ -29,11 +28,6 @@
 
 //===================================================
 
-//============ Servo ====================
-
-#define SERVO_PIN 15
-
-//=======================================
 
 //============ Joystick ==================
 
@@ -77,7 +71,6 @@ int main() {
 
     Joystick joystick(JOYSTICK_PIN, JOYSTICK_ADC_CHANNEL);
     
-    ServoMotor servo(SERVO_PIN);
 
     Qmc5883l magnetometer(0x2C);
 
@@ -91,9 +84,6 @@ int main() {
 
     joystick.init();
     printf("Inizializzato joystick\n");
-
-    servo.init();
-    printf("Servo inizializzato\n");
 
     magnetometer.init();
     printf("Magnetometro inizializzato\n");
@@ -138,13 +128,16 @@ int main() {
 
     absolute_time_t last_log_time = get_absolute_time();
 
+    float temperature = bmp.readTemperature();
+
+    float pressure = bmp.readPressure();
+
+
     //Loop principale
 
     while(true) {
 
         float servo_angle = joystick.getAngle();
-
-        servo.setAngle(servo_angle);
 
         //Sensori e logging ogni 500 ms
 
@@ -165,11 +158,13 @@ int main() {
 
             //BMP/BME280
 
-            float temperature = bmp.readTemperature();
+            temperature = bmp.readTemperature();
 
-            float pressure = bmp.readPressure();
+            pressure = bmp.readPressure();
+
 
             float altitude = bmp.readAltitude();
+
 
             //Tempo
 
@@ -178,7 +173,7 @@ int main() {
             //Stampa
 
             printf(
-                "t:%lu ms | Servo: %.2f | Mag X:%d Y:%d Z:%d | Heading: %.2f | Heading Calibrato: %.2f | Temp: %.2f C | Press: %.2f Pa | Alt: %.2f m\n", 
+                "Tempo:%lu ms | Servo: %.2f | Mag X:%d Y:%d Z:%d | Heading: %.2f | Heading Calibrato: %.2f | Temp: %.2f C | Press: %.2f Pa | Alt: %.2f m\n", 
                 time_ms,
                 servo_angle,
                 mag.x,

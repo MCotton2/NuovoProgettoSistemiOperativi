@@ -247,6 +247,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c" "CMakeFiles/test.dir/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.o" "gcc" "CMakeFiles/test.dir/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.o.d"
   "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c" "CMakeFiles/test.dir/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.o" "gcc" "CMakeFiles/test.dir/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.o.d"
   "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/LoRaReceiver.cpp" "CMakeFiles/test.dir/LoRaReceiver.cpp.o" "gcc" "CMakeFiles/test.dir/LoRaReceiver.cpp.o.d"
+  "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/ServoMotor.cpp" "CMakeFiles/test.dir/ServoMotor.cpp.o" "gcc" "CMakeFiles/test.dir/ServoMotor.cpp.o.d"
   "/home/alex/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp" "CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o" "gcc" "CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o.d"
   "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/main.cpp" "CMakeFiles/test.dir/main.cpp.o" "gcc" "CMakeFiles/test.dir/main.cpp.o.d"
   )

@@ -20,7 +20,6 @@ add_subdirectory(lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI)
 #Definisco l'eseguibile finale
 add_executable(test main.cpp
                     Joystick.cpp
-                    ServoMotor.cpp
                     Qmc5883l.cpp
                     Bmp280.cpp
                     hw_config.c

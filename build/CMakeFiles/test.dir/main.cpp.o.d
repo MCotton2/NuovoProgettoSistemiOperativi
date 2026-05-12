@@ -117,7 +117,6 @@ CMakeFiles/test.dir/main.cpp.o: \
  /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Qmc5883l.h \
  /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Joystick.h \
  /usr/include/newlib/c++/13.2.1/cstdint \
- /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/ServoMotor.h \
  /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/LoRaE220Transmitter.h \
  /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/SDLogger.h \
  /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.h \

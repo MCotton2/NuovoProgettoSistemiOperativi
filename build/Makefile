@@ -327,30 +327,6 @@ SDLogger.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/SDLogger.cpp.s
 .PHONY : SDLogger.cpp.s
 
-ServoMotor.o: ServoMotor.cpp.o
-.PHONY : ServoMotor.o
-
-# target to build an object file
-ServoMotor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/ServoMotor.cpp.o
-.PHONY : ServoMotor.cpp.o
-
-ServoMotor.i: ServoMotor.cpp.i
-.PHONY : ServoMotor.i
-
-# target to preprocess a source file
-ServoMotor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/ServoMotor.cpp.i
-.PHONY : ServoMotor.cpp.i
-
-ServoMotor.s: ServoMotor.cpp.s
-.PHONY : ServoMotor.s
-
-# target to generate assembly for a file
-ServoMotor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/ServoMotor.cpp.s
-.PHONY : ServoMotor.cpp.s
-
 home/alex/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o: home/alex/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
 .PHONY : home/alex/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o
 
@@ -2629,9 +2605,6 @@ help:
 	@echo "... SDLogger.o"
 	@echo "... SDLogger.i"
 	@echo "... SDLogger.s"
-	@echo "... ServoMotor.o"
-	@echo "... ServoMotor.i"
-	@echo "... ServoMotor.s"
 	@echo "... home/alex/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o"
 	@echo "... home/alex/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
 	@echo "... home/alex/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
