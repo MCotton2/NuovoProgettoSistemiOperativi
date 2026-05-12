@@ -147,12 +147,12 @@ CMakeFiles/picotool.dir/data_locs.cpp.o: data_locs.cpp \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
-CMakeFiles/picotool.dir/get_enc_bootloader.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/get_enc_bootloader.cpp \
+CMakeFiles/picotool.dir/get_enc_bootloader.cpp.o: /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/get_enc_bootloader.cpp \
   enc_bootloader_elf.h \
   enc_bootloader_mbedtls_elf.h \
-  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/data_locs.h \
-  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/get_enc_bootloader.h \
-  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/whereami/whereami++.h \
+  /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/data_locs.h \
+  /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/get_enc_bootloader.h \
+  /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/whereami/whereami++.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -377,9 +377,9 @@ CMakeFiles/picotool.dir/get_enc_bootloader.cpp.o: /home/alex/Scrivania/Progetto\
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
 
-CMakeFiles/picotool.dir/lib/whereami/whereami++.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/whereami/whereami++.cpp \
-  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/whereami/whereami++.h \
-  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/whereami/whereami.c \
+CMakeFiles/picotool.dir/lib/whereami/whereami++.cpp.o: /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/whereami/whereami++.cpp \
+  /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/whereami/whereami++.h \
+  /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/whereami/whereami.c \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -576,8 +576,8 @@ CMakeFiles/picotool.dir/lib/whereami/whereami++.cpp.o: /home/alex/Scrivania/Prog
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
 
-CMakeFiles/picotool.dir/lib/whereami/whereami.c.o: /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/whereami/whereami.c \
-  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/whereami/whereami.h \
+CMakeFiles/picotool.dir/lib/whereami/whereami.c.o: /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/whereami/whereami.c \
+  /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/whereami/whereami.h \
   /usr/include/alloca.h \
   /usr/include/endian.h \
   /usr/include/features-time64.h \
@@ -654,22 +654,22 @@ CMakeFiles/picotool.dir/lib/whereami/whereami.c.o: /home/alex/Scrivania/Progetto
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
 
-CMakeFiles/picotool.dir/main.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/main.cpp \
-  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/bintool/bintool.h \
-  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
-  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/bintool/metadata.h \
-  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/cli.h \
-  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/clipp/clipp.h \
-  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/elf/addresses.h \
-  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/elf/elf.h \
-  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/elf/elf_file.h \
-  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
-  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/errors/errors.h \
-  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/get_enc_bootloader.h \
-  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
-  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
-  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/otp.h \
-  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h \
+CMakeFiles/picotool.dir/main.cpp.o: /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/main.cpp \
+  /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/bintool/bintool.h \
+  /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
+  /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/bintool/metadata.h \
+  /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/cli.h \
+  /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/clipp/clipp.h \
+  /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/elf/addresses.h \
+  /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/elf/elf.h \
+  /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/elf/elf_file.h \
+  /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
+  /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/errors/errors.h \
+  /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/get_enc_bootloader.h \
+  /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+  /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
+  /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/otp.h \
+  /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h \
   /home/alex/pico/pico-sdk/lib/mbedtls/include/mbedtls/aes.h \
   /home/alex/pico/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
   /home/alex/pico/pico-sdk/lib/mbedtls/include/mbedtls/build_info.h \
@@ -1075,9 +1075,9 @@ CMakeFiles/picotool.dir/main.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Oper
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
 
-CMakeFiles/picotool.dir/no_otp.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/no_otp.cpp \
-  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
-  /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/otp.h \
+CMakeFiles/picotool.dir/no_otp.cpp.o: /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/no_otp.cpp \
+  /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
+  /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/otp.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -1363,6 +1363,8 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Op
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
 
 
+/home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/no_otp.cpp:
+
 /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h:
 
 /usr/include/x86_64-linux-gnu/sys/ucontext.h:
@@ -1371,17 +1373,11 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Op
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h:
-
 /usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
 /usr/include/x86_64-linux-gnu/bits/unistd.h:
 
 /usr/include/x86_64-linux-gnu/bits/unistd-decl.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
 
@@ -1389,9 +1385,13 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Op
 
 /usr/include/x86_64-linux-gnu/bits/ss_flags.h:
 
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+
 /usr/include/x86_64-linux-gnu/bits/sigstksz.h:
 
 /usr/include/x86_64-linux-gnu/bits/sigstack.h:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h:
 
 /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
 
@@ -1406,8 +1406,6 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Op
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
-
-/usr/include/x86_64-linux-gnu/bits/local_lim.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
 
@@ -1445,11 +1443,15 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Op
 
 /usr/include/c++/13/cstdint:
 
+/usr/include/c++/13/cstddef:
+
 /usr/include/c++/13/cstdarg:
 
 /usr/include/c++/13/csignal:
 
 /usr/include/c++/13/bitset:
+
+/usr/include/c++/13/bits/valarray_before.h:
 
 /usr/include/c++/13/bits/valarray_array.tcc:
 
@@ -1464,6 +1466,8 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Op
 /usr/include/c++/13/bits/stl_relops.h:
 
 /usr/include/c++/13/bits/stl_numeric.h:
+
+/usr/include/c++/13/bits/stl_multiset.h:
 
 /usr/include/c++/13/bits/stl_deque.h:
 
@@ -1483,13 +1487,13 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Op
 
 /usr/include/c++/13/bits/random.h:
 
-/usr/include/c++/13/bits/regex_automaton.h:
-
-/usr/include/c++/13/bits/mask_array.h:
-
 /usr/include/uchar.h:
 
 /usr/include/c++/13/bits/locale_facets_nonio.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/usr/include/c++/13/bits/locale_facets_nonio.h:
 
 /usr/include/c++/13/bits/indirect_array.h:
 
@@ -1547,8 +1551,6 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Op
 
 /home/alex/pico/pico-sdk/lib/mbedtls/include/mbedtls/pk.h:
 
-/home/alex/pico/pico-sdk/lib/mbedtls/include/mbedtls/md.h:
-
 /home/alex/pico/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h:
 
 /home/alex/pico/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h:
@@ -1569,29 +1571,21 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Op
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
-/usr/include/c++/13/cstdio:
-
 /usr/include/c++/13/fstream:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
-/usr/include/c++/13/bits/hashtable.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
+/home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/clipp/clipp.h:
 
 /home/alex/pico/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h:
 
 /usr/include/c++/13/bits/stl_raw_storage_iter.h:
 
-/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/elf/elf.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/get_enc_bootloader.cpp:
 
 /usr/include/math.h:
 
@@ -1645,13 +1639,11 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Op
 
 /usr/include/c++/13/ext/aligned_buffer.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
+
+/home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h:
+
 /usr/include/x86_64-linux-gnu/bits/locale.h:
-
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
-
-/usr/include/c++/13/map:
-
-/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/whereami/whereami++.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
@@ -1691,6 +1683,10 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Op
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/whereami/whereami.c:
+
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
@@ -1701,7 +1697,13 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Op
 
 /usr/include/stdlib.h:
 
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+
 /usr/include/features-time64.h:
+
+/home/alex/pico/pico-sdk/lib/mbedtls/include/mbedtls/md.h:
+
+/home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/main.cpp:
 
 /usr/include/c++/13/bits/regex_compiler.tcc:
 
@@ -1733,6 +1735,8 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Op
 
 /usr/include/inttypes.h:
 
+/home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/bintool/mbedtls_wrapper.h:
+
 /usr/include/c++/13/bits/predefined_ops.h:
 
 /usr/include/x86_64-linux-gnu/bits/signum-generic.h:
@@ -1757,8 +1761,6 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: /home/alex/Scrivania/Progetto\ Sistemi\ Op
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
 
-/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
@@ -1775,8 +1777,6 @@ data_locs.cpp:
 
 /usr/include/c++/13/bits/memoryfwd.h:
 
-/usr/include/c++/13/bits/functexcept.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/c++/13/ext/numeric_traits.h:
@@ -1787,21 +1787,15 @@ data_locs.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
-/usr/include/x86_64-linux-gnu/bits/confname.h:
-
-/usr/include/c++/13/bits/locale_facets_nonio.h:
-
-/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/clipp/clipp.h:
-
-/usr/include/c++/13/cstddef:
-
-/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp:
-
 /usr/include/c++/13/bits/stl_vector.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
 /usr/include/c++/13/bits/shared_ptr.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/c++/13/string:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
 
@@ -1827,10 +1821,6 @@ data_locs.cpp:
 
 /usr/include/alloca.h:
 
-/usr/include/c++/13/bits/stl_multiset.h:
-
-/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/main.cpp:
-
 /usr/include/c++/13/bits/hash_bytes.h:
 
 /usr/include/c++/13/clocale:
@@ -1846,8 +1836,6 @@ data_locs.cpp:
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
 /usr/include/c++/13/bits/stringfwd.h:
-
-/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/whereami/whereami.c:
 
 /usr/include/c++/13/backward/binders.h:
 
@@ -1897,12 +1885,6 @@ data_locs.cpp:
 
 /usr/include/c++/13/bits/stl_iterator_base_types.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
-/usr/include/c++/13/string:
-
-/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/cli.h:
-
 /usr/include/linux/errno.h:
 
 /usr/include/c++/13/debug/debug.h:
@@ -1910,6 +1892,10 @@ data_locs.cpp:
 /usr/include/c++/13/bits/ptr_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h:
+
+/usr/include/c++/13/cstdio:
+
+/home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/elf/elf.h:
 
 /usr/include/x86_64-linux-gnu/bits/select-decl.h:
 
@@ -1939,11 +1925,17 @@ enc_bootloader_mbedtls_elf.h:
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
+/usr/include/c++/13/bits/stl_construct.h:
+
 /usr/include/c++/13/bits/new_allocator.h:
 
 /usr/include/c++/13/bits/stl_uninitialized.h:
 
 /usr/include/c++/13/cctype:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h:
+
+/home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h:
 
 /usr/include/c++/13/bits/regex_scanner.h:
 
@@ -1958,6 +1950,8 @@ enc_bootloader_mbedtls_elf.h:
 /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h:
 
 /home/alex/pico/pico-sdk/lib/mbedtls/include/mbedtls/version.h:
+
+/home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/elf/elf_file.h:
 
 /usr/include/c++/13/ext/type_traits.h:
 
@@ -1979,15 +1973,9 @@ enc_bootloader_mbedtls_elf.h:
 
 /usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
-
-/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/whereami/whereami++.h:
-
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
 
 /usr/include/c++/13/iterator:
-
-/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/data_locs.h:
 
 /usr/include/c++/13/bits/ios_base.h:
 
@@ -2009,6 +1997,8 @@ enc_bootloader_mbedtls_elf.h:
 
 /home/alex/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h:
 
+/home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/get_enc_bootloader.h:
+
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
 /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
@@ -2025,11 +2015,21 @@ enc_bootloader_mbedtls_elf.h:
 
 enc_bootloader_elf.h:
 
-/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/get_enc_bootloader.h:
+/usr/include/c++/13/bits/regex_automaton.h:
+
+/usr/include/c++/13/bits/mask_array.h:
+
+/home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/data_locs.h:
+
+/usr/include/c++/13/bits/fstream.tcc:
+
+/usr/include/c++/13/bits/hashtable.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
+
+/home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/whereami/whereami++.h:
 
 /usr/include/c++/13/algorithm:
-
-/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/no_otp.cpp:
 
 /usr/include/c++/13/backward/auto_ptr.h:
 
@@ -2041,13 +2041,11 @@ enc_bootloader_elf.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
 
-/usr/include/c++/13/bits/stl_construct.h:
-
-/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/otp.h:
-
 /usr/include/c++/13/bits/stl_tree.h:
 
 /usr/include/c++/13/bits/codecvt.h:
+
+/home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/bintool/metadata.h:
 
 /usr/include/c++/13/bits/cxxabi_init_exception.h:
 
@@ -2065,8 +2063,6 @@ enc_bootloader_elf.h:
 
 /usr/include/c++/13/bits/istream.tcc:
 
-/usr/include/c++/13/bits/fstream.tcc:
-
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
 /usr/include/c++/13/bits/locale_classes.h:
@@ -2082,6 +2078,8 @@ enc_bootloader_elf.h:
 /usr/include/c++/13/tuple:
 
 /usr/include/c++/13/bits/nested_exception.h:
+
+/usr/include/c++/13/bits/ostream.tcc:
 
 /usr/include/c++/13/set:
 
@@ -2121,8 +2119,6 @@ enc_bootloader_elf.h:
 
 /usr/include/c++/13/ext/concurrence.h:
 
-/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/elf/addresses.h:
-
 /usr/include/c++/13/ios:
 
 /home/alex/pico/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h:
@@ -2139,8 +2135,6 @@ enc_bootloader_elf.h:
 
 /usr/include/c++/13/sstream:
 
-/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/elf2uf2/elf2uf2.h:
-
 /usr/include/c++/13/stdexcept:
 
 /usr/include/pthread.h:
@@ -2156,6 +2150,8 @@ enc_bootloader_elf.h:
 /usr/include/linux/limits.h:
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+
+/home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/get_enc_bootloader.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/sched.h:
 
@@ -2191,34 +2187,38 @@ enc_bootloader_elf.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
-
-/usr/include/c++/13/stdlib.h:
-
-/usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h:
-
-/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/bintool/bintool.h:
-
-/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/bintool/mbedtls_wrapper.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:
 
-/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/elf/elf_file.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
 
-/usr/include/c++/13/bits/valarray_before.h:
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
-/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/whereami/whereami.h:
+/usr/include/c++/13/map:
 
-/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/bintool/metadata.h:
+/home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/whereami/whereami++.cpp:
 
-/usr/include/c++/13/bits/ostream.tcc:
+/usr/include/c++/13/stdlib.h:
 
-/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/errors/errors.h:
+/home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+/home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/whereami/whereami.h:
 
-/home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h:
+/home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/bintool/bintool.h:
+
+/home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/cli.h:
+
+/home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/elf/addresses.h:
+
+/home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/elf2uf2/elf2uf2.h:
+
+/usr/include/c++/13/bits/functexcept.h:
+
+/home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/errors/errors.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+
+/home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/otp.h:

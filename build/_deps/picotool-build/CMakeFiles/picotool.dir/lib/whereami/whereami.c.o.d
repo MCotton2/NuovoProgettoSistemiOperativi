@@ -1,7 +1,7 @@
 CMakeFiles/picotool.dir/lib/whereami/whereami.c.o: \
- /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/whereami/whereami.c \
+ /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/whereami/whereami.c \
  /usr/include/stdc-predef.h \
- /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/whereami/whereami.h \
+ /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/whereami/whereami.h \
  /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

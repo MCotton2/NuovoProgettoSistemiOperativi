@@ -3,7 +3,7 @@ lib/CMakeFiles/mbedtls.dir/home/alex/pico/pico-sdk/lib/mbedtls/library/entropy_p
  /usr/include/stdc-predef.h \
  /home/alex/pico/pico-sdk/lib/mbedtls/library/common.h \
  /home/alex/pico/pico-sdk/lib/mbedtls/include/mbedtls/build_info.h \
- /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+ /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
  /usr/include/limits.h \

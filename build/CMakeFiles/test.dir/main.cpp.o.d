@@ -1,5 +1,5 @@
 CMakeFiles/test.dir/main.cpp.o: \
- /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/main.cpp \
+ /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/main.cpp \
  /usr/include/newlib/stdio.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
@@ -61,9 +61,9 @@ CMakeFiles/test.dir/main.cpp.o: \
  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
  /usr/include/newlib/c++/13.2.1/cassert /usr/include/newlib/assert.h \
  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
- /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/generated/pico_base/pico/version.h \
+ /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/generated/pico_base/pico/version.h \
  /home/alex/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
- /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/generated/pico_base/pico/config_autogen.h \
+ /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/generated/pico_base/pico/config_autogen.h \
  /home/alex/pico/pico-sdk/src/boards/include/boards/pico.h \
  /home/alex/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/alex/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
@@ -113,11 +113,11 @@ CMakeFiles/test.dir/main.cpp.o: \
  /home/alex/pico/pico-sdk/src/rp2_common/hardware_pwm/include/hardware/pwm.h \
  /home/alex/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pwm.h \
  /home/alex/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pwm.h \
- /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Bmp280.h \
- /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Qmc5883l.h \
- /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Joystick.h \
+ /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Bmp280.h \
+ /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Qmc5883l.h \
+ /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Joystick.h \
  /usr/include/newlib/c++/13.2.1/cstdint \
- /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/ServoMotor.h \
- /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/SDLogger.h \
- /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.h \
- /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffconf.h
+ /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/ServoMotor.h \
+ /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/SDLogger.h \
+ /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.h \
+ /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffconf.h

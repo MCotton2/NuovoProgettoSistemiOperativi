@@ -111,7 +111,7 @@ int main() {
 
     }
 
-    if(!logger.openFile("flight_log.csv")) {
+    if(!logger.openFile("Flight_log.csv")) {
 
         printf("Errore apertura file csv\n");
 

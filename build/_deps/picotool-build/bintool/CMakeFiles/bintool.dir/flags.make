@@ -5,13 +5,13 @@
 # compile CXX with /usr/bin/c++
 C_DEFINES = -DHAS_MBEDTLS=1 -DMBEDTLS_CONFIG_FILE=\"picotool_mbedtls_config.h\" -DNO_PICO_PLATFORM=1
 
-C_INCLUDES = -I"/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/bintool" -I"/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/include" -I"/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/elf" -I"/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/errors" -isystem /home/alex/pico/pico-sdk/lib/mbedtls/include -isystem /home/alex/pico/pico-sdk/src/common/boot_picobin_headers/include
+C_INCLUDES = -I"/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/bintool" -I"/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/include" -I"/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/elf" -I"/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/errors" -isystem /home/alex/pico/pico-sdk/lib/mbedtls/include -isystem /home/alex/pico/pico-sdk/src/common/boot_picobin_headers/include
 
 C_FLAGS = -O3 -DNDEBUG
 
 CXX_DEFINES = -DHAS_MBEDTLS=1 -DMBEDTLS_CONFIG_FILE=\"picotool_mbedtls_config.h\" -DNO_PICO_PLATFORM=1
 
-CXX_INCLUDES = -I"/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/bintool" -I"/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/include" -I"/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/elf" -I"/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/errors" -isystem /home/alex/pico/pico-sdk/lib/mbedtls/include -isystem /home/alex/pico/pico-sdk/src/common/boot_picobin_headers/include
+CXX_INCLUDES = -I"/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/bintool" -I"/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/include" -I"/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/elf" -I"/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/errors" -isystem /home/alex/pico/pico-sdk/lib/mbedtls/include -isystem /home/alex/pico/pico-sdk/src/common/boot_picobin_headers/include
 
 CXX_FLAGS = -O3 -DNDEBUG -std=gnu++14
 

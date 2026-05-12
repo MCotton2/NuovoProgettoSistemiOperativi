@@ -1,4 +1,4 @@
-// Padded and checksummed version of: /home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: /home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb
