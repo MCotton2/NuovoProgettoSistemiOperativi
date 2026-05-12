@@ -12,8 +12,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.28.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
+  "_deps/picotool/picotoolConfig.cmake"
+  "_deps/picotool/picotoolConfigVersion.cmake"
+  "_deps/picotool/picotoolTargets-release.cmake"
+  "_deps/picotool/picotoolTargets.cmake"
   "pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/pioasmBuild-mkdirs.cmake"
-  "picotool/tmp/picotoolBuild-mkdirs.cmake"
   "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/CMakeLists.txt"
   "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/pico_sdk_import.cmake"
   "/home/alex/pico/pico-sdk/CMakeLists.txt"
@@ -137,7 +140,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/alex/pico/pico-sdk/src/rp2_common/pico_unique_id/CMakeLists.txt"
   "/home/alex/pico/pico-sdk/src/rp2_common/tinyusb/CMakeLists.txt"
   "/home/alex/pico/pico-sdk/tools/CMakeLists.txt"
-  "/home/alex/pico/pico-sdk/tools/Findpicotool.cmake"
   "/home/alex/pico/pico-sdk/tools/Findpioasm.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeASMInformation.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeCInformation.cmake"
@@ -162,9 +164,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.28/Modules/ExternalProject/mkdirs.cmake.in"
   "/usr/share/cmake-3.28/Modules/ExternalProject/shared_internal_commands.cmake"
   "/usr/share/cmake-3.28/Modules/FetchContent.cmake"
-  "/usr/share/cmake-3.28/Modules/FetchContent/CMakeLists.cmake.in"
   "/usr/share/cmake-3.28/Modules/FindDoxygen.cmake"
-  "/usr/share/cmake-3.28/Modules/FindGit.cmake"
   "/usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake"
   "/usr/share/cmake-3.28/Modules/FindPackageMessage.cmake"
   "/usr/share/cmake-3.28/Modules/FindPython/Support.cmake"
@@ -180,12 +180,6 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "_deps/picotool-subbuild/CMakeLists.txt"
-  "picotool/tmp/picotoolBuild-mkdirs.cmake"
-  "picotool/src/picotoolBuild-stamp/picotoolBuild-source_dirinfo.txt"
-  "picotool/src/picotoolBuild-stamp/picotoolBuild-update-info.txt"
-  "picotool/src/picotoolBuild-stamp/picotoolBuild-patch-info.txt"
-  "picotool/tmp/picotoolBuild-cfgcmd.txt"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "generated/pico_base/pico/version.h"
   "generated/pico_base/pico/config_autogen.h"
@@ -301,8 +295,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/test.dir/DependInfo.cmake"
-  "CMakeFiles/picotoolForceReconfigure.dir/DependInfo.cmake"
-  "CMakeFiles/picotoolBuild.dir/DependInfo.cmake"
   "pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/DependInfo.cmake"
   "pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake"
   "pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/DependInfo.cmake"

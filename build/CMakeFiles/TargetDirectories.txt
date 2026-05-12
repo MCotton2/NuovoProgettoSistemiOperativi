@@ -1,6 +1,4 @@
 /home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/CMakeFiles/test.dir
-/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/CMakeFiles/picotoolForceReconfigure.dir
-/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/CMakeFiles/picotoolBuild.dir
 /home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/CMakeFiles/edit_cache.dir
 /home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/CMakeFiles/rebuild_cache.dir
 /home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/pico-sdk/CMakeFiles/edit_cache.dir
