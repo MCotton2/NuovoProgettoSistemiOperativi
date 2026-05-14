@@ -284,7 +284,7 @@ float Bmp280::readAltitude() {
 
     float pressure = readPressure();
 
-    return 44330.0f * (1.0f - powf(pressure / 100800.0f, 0.1903f));
+    return 44330.0f * (1.0f - powf(pressure / sea_level_pressure, 0.1903f));
 
 
 

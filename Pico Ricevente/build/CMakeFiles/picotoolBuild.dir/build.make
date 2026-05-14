@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente"
+CMAKE_SOURCE_DIR = "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build"
+CMAKE_BINARY_DIR = "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build"
 
 # Utility rule file for picotoolBuild.
 
@@ -77,10 +77,10 @@ CMakeFiles/picotoolBuild-complete: picotool/src/picotoolBuild-stamp/picotoolBuil
 CMakeFiles/picotoolBuild-complete: picotool/src/picotoolBuild-stamp/picotoolBuild-build
 CMakeFiles/picotoolBuild-complete: picotool/src/picotoolBuild-stamp/picotoolBuild-install
 CMakeFiles/picotoolBuild-complete: picotool/src/picotoolBuild-stamp/picotoolBuild-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Completed 'picotoolBuild'"
-	/usr/bin/cmake -E make_directory "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/CMakeFiles"
-	/usr/bin/cmake -E touch "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/CMakeFiles/picotoolBuild-complete"
-	/usr/bin/cmake -E touch "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/picotool/src/picotoolBuild-stamp/picotoolBuild-done"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Completed 'picotoolBuild'"
+	/usr/bin/cmake -E make_directory "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/CMakeFiles"
+	/usr/bin/cmake -E touch "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/CMakeFiles/picotoolBuild-complete"
+	/usr/bin/cmake -E touch "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/picotool/src/picotoolBuild-stamp/picotoolBuild-done"
 
 picotool/src/picotoolBuild-stamp/picotoolBuild-install:
 .PHONY : picotool/src/picotoolBuild-stamp/picotoolBuild-install
@@ -92,52 +92,52 @@ picotool/src/picotoolBuild-stamp/picotoolBuild-install:
 .PHONY : picotool/src/picotoolBuild-stamp/picotoolBuild-install
 
 picotool/src/picotoolBuild-stamp/picotoolBuild-build: picotool/src/picotoolBuild-stamp/picotoolBuild-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'picotoolBuild'"
-	cd "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/_deps/picotool-build" && $(MAKE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'picotoolBuild'"
+	cd "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/_deps/picotool-build" && $(MAKE)
 
 picotool/src/picotoolBuild-stamp/picotoolBuild-configure: picotool/tmp/picotoolBuild-cfgcmd.txt
 picotool/src/picotoolBuild-stamp/picotoolBuild-configure: picotool/src/picotoolBuild-stamp/picotoolBuild-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'picotoolBuild'"
-	cd "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/_deps/picotool-build" && /usr/bin/cmake --no-warn-unused-cli -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/gmake -DPICO_SDK_PATH:FILEPATH=/home/alex/pico/pico-sdk -DPICOTOOL_NO_LIBUSB=1 -DPICOTOOL_FLAT_INSTALL=1 "-DCMAKE_INSTALL_PREFIX=/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/_deps" -DCMAKE_RULE_MESSAGES=OFF -DCMAKE_INSTALL_MESSAGE=NEVER "-GUnix Makefiles" -S "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/_deps/picotool-src" -B "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/_deps/picotool-build"
-	cd "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/_deps/picotool-build" && /usr/bin/cmake -E touch "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/picotool/src/picotoolBuild-stamp/picotoolBuild-configure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'picotoolBuild'"
+	cd "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/_deps/picotool-build" && /usr/bin/cmake --no-warn-unused-cli -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/gmake -DPICO_SDK_PATH:FILEPATH=/home/alex/pico/pico-sdk -DPICOTOOL_NO_LIBUSB=1 -DPICOTOOL_FLAT_INSTALL=1 "-DCMAKE_INSTALL_PREFIX=/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/_deps" -DCMAKE_RULE_MESSAGES=OFF -DCMAKE_INSTALL_MESSAGE=NEVER "-GUnix Makefiles" -S "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/_deps/picotool-src" -B "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/_deps/picotool-build"
+	cd "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/_deps/picotool-build" && /usr/bin/cmake -E touch "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/picotool/src/picotoolBuild-stamp/picotoolBuild-configure"
 
 picotool/src/picotoolBuild-stamp/picotoolBuild-download: picotool/src/picotoolBuild-stamp/picotoolBuild-source_dirinfo.txt
 picotool/src/picotoolBuild-stamp/picotoolBuild-download: picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'picotoolBuild'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'picotoolBuild'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/picotool/src/picotoolBuild-stamp/picotoolBuild-download"
+	/usr/bin/cmake -E touch "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/picotool/src/picotoolBuild-stamp/picotoolBuild-download"
 
 picotool/src/picotoolBuild-stamp/picotoolBuild-install: picotool/src/picotoolBuild-stamp/picotoolBuild-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'picotoolBuild'"
-	cd "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/_deps/picotool-build" && $(MAKE) install
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'picotoolBuild'"
+	cd "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/_deps/picotool-build" && $(MAKE) install
 
 picotool/src/picotoolBuild-stamp/picotoolBuild-build:
 .PHONY : picotool/src/picotoolBuild-stamp/picotoolBuild-build
 
 picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'picotoolBuild'"
-	/usr/bin/cmake -Dcfgdir= -P "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/picotool/tmp/picotoolBuild-mkdirs.cmake"
-	/usr/bin/cmake -E touch "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'picotoolBuild'"
+	/usr/bin/cmake -Dcfgdir= -P "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/picotool/tmp/picotoolBuild-mkdirs.cmake"
+	/usr/bin/cmake -E touch "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir"
 
 picotool/src/picotoolBuild-stamp/picotoolBuild-patch: picotool/src/picotoolBuild-stamp/picotoolBuild-patch-info.txt
 picotool/src/picotoolBuild-stamp/picotoolBuild-patch: picotool/src/picotoolBuild-stamp/picotoolBuild-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'picotoolBuild'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'picotoolBuild'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/picotool/src/picotoolBuild-stamp/picotoolBuild-patch"
+	/usr/bin/cmake -E touch "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/picotool/src/picotoolBuild-stamp/picotoolBuild-patch"
 
 picotool/src/picotoolBuild-stamp/picotoolBuild-test: picotool/src/picotoolBuild-stamp/picotoolBuild-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Performing test step for 'picotoolBuild'"
-	cd "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/_deps/picotool-build" && "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/_deps/picotool/picotool" version 2.1.1
-	cd "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/_deps/picotool-build" && /usr/bin/cmake -E touch "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/picotool/src/picotoolBuild-stamp/picotoolBuild-test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Performing test step for 'picotoolBuild'"
+	cd "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/_deps/picotool-build" && "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/_deps/picotool/picotool" version 2.1.1
+	cd "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/_deps/picotool-build" && /usr/bin/cmake -E touch "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/picotool/src/picotoolBuild-stamp/picotoolBuild-test"
 
 picotool/src/picotoolBuild-stamp/picotoolBuild-install:
 .PHONY : picotool/src/picotoolBuild-stamp/picotoolBuild-install
 
 picotool/src/picotoolBuild-stamp/picotoolBuild-update: picotool/src/picotoolBuild-stamp/picotoolBuild-update-info.txt
 picotool/src/picotoolBuild-stamp/picotoolBuild-update: picotool/src/picotoolBuild-stamp/picotoolBuild-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "No update step for 'picotoolBuild'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "No update step for 'picotoolBuild'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/picotool/src/picotoolBuild-stamp/picotoolBuild-update"
+	/usr/bin/cmake -E touch "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/picotool/src/picotoolBuild-stamp/picotoolBuild-update"
 
 picotoolBuild: CMakeFiles/picotoolBuild
 picotoolBuild: CMakeFiles/picotoolBuild-complete
@@ -161,6 +161,6 @@ CMakeFiles/picotoolBuild.dir/clean:
 .PHONY : CMakeFiles/picotoolBuild.dir/clean
 
 CMakeFiles/picotoolBuild.dir/depend:
-	cd "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente" "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente" "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build" "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build" "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/CMakeFiles/picotoolBuild.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente" "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente" "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build" "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build" "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/CMakeFiles/picotoolBuild.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/picotoolBuild.dir/depend
 

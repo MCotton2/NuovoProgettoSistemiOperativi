@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente"
+CMAKE_SOURCE_DIR = "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build"
+CMAKE_BINARY_DIR = "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build"
 
 # Utility rule file for picotoolForceReconfigure.
 
@@ -67,7 +67,7 @@ include CMakeFiles/picotoolForceReconfigure.dir/compiler_depend.make
 include CMakeFiles/picotoolForceReconfigure.dir/progress.make
 
 CMakeFiles/picotoolForceReconfigure:
-	/usr/bin/cmake -E touch_nocreate "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/CMakeLists.txt"
+	/usr/bin/cmake -E touch_nocreate "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/CMakeLists.txt"
 
 picotoolForceReconfigure: CMakeFiles/picotoolForceReconfigure
 picotoolForceReconfigure: CMakeFiles/picotoolForceReconfigure.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/picotoolForceReconfigure.dir/clean:
 .PHONY : CMakeFiles/picotoolForceReconfigure.dir/clean
 
 CMakeFiles/picotoolForceReconfigure.dir/depend:
-	cd "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente" "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente" "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build" "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build" "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/CMakeFiles/picotoolForceReconfigure.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente" "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente" "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build" "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build" "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/CMakeFiles/picotoolForceReconfigure.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/picotoolForceReconfigure.dir/depend
 

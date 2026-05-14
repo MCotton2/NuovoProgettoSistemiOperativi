@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/CMakeLists.txt"
+  "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/CMakeLists.txt"
   "CMakeFiles/3.28.3/CMakeASMCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
@@ -17,8 +17,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "_deps/picotool/picotoolTargets-release.cmake"
   "_deps/picotool/picotoolTargets.cmake"
   "pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/pioasmBuild-mkdirs.cmake"
-  "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/CMakeLists.txt"
-  "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/pico_sdk_import.cmake"
+  "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/CMakeLists.txt"
+  "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/pico_sdk_import.cmake"
   "/home/alex/pico/pico-sdk/CMakeLists.txt"
   "/home/alex/pico/pico-sdk/cmake/Platform/PICO.cmake"
   "/home/alex/pico/pico-sdk/cmake/generic_board.cmake"

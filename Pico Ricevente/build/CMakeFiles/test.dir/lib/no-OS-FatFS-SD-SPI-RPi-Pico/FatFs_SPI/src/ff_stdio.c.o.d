@@ -1,5 +1,5 @@
 CMakeFiles/test.dir/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.o: \
- /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Pico\ Ricevente/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c \
+ /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Pico\ Ricevente/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c \
  /usr/include/newlib/errno.h /usr/include/newlib/sys/errno.h \
  /usr/include/newlib/sys/reent.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
@@ -16,12 +16,12 @@ CMakeFiles/test.dir/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.o: 
  /usr/include/newlib/machine/stdlib.h /usr/include/newlib/alloca.h \
  /usr/include/newlib/string.h /usr/include/newlib/sys/_locale.h \
  /usr/include/newlib/strings.h /usr/include/newlib/sys/string.h \
- /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Pico\ Ricevente/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/my_debug.h \
+ /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Pico\ Ricevente/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/my_debug.h \
  /usr/include/newlib/stdio.h \
  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
  /usr/include/newlib/sys/stdio.h \
- /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Pico\ Ricevente/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/f_util.h \
- /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Pico\ Ricevente/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.h \
- /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Pico\ Ricevente/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffconf.h \
+ /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Pico\ Ricevente/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/f_util.h \
+ /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Pico\ Ricevente/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.h \
+ /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Pico\ Ricevente/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffconf.h \
  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
- /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Pico\ Ricevente/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/ff_stdio.h
+ /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Pico\ Ricevente/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/ff_stdio.h

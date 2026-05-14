@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/_deps/picotool-src/bintool/mbedtls_wrapper.c" "bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o" "gcc" "bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o.d"
-  "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/_deps/picotool-src/bintool/bintool.cpp" "bintool/CMakeFiles/bintool.dir/bintool.cpp.o" "gcc" "bintool/CMakeFiles/bintool.dir/bintool.cpp.o.d"
+  "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/_deps/picotool-src/bintool/mbedtls_wrapper.c" "bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o" "gcc" "bintool/CMakeFiles/bintool.dir/mbedtls_wrapper.c.o.d"
+  "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/_deps/picotool-src/bintool/bintool.cpp" "bintool/CMakeFiles/bintool.dir/bintool.cpp.o" "gcc" "bintool/CMakeFiles/bintool.dir/bintool.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

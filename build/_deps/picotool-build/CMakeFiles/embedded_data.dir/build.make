@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src"
+CMAKE_SOURCE_DIR = "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-build"
+CMAKE_BINARY_DIR = "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-build"
 
 # Utility rule file for embedded_data.
 
@@ -68,13 +68,13 @@ CMakeFiles/embedded_data: xip_ram_perms_elf.h
 CMakeFiles/embedded_data: flash_id_bin.h
 
 flash_id_bin.h: flash_id
-	/usr/bin/cmake -D BINARY_FILE= -D OUTPUT_NAME=flash_id_bin -P "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/cmake/binh.cmake"
+	/usr/bin/cmake -D BINARY_FILE= -D OUTPUT_NAME=flash_id_bin -P "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/cmake/binh.cmake"
 
 rp2350.rom.h:
-	/usr/bin/cmake -D "BINARY_FILE=/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/bootrom.end.bin" -D OUTPUT_NAME=rp2350.rom -P "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/cmake/binh.cmake"
+	/usr/bin/cmake -D "BINARY_FILE=/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/bootrom.end.bin" -D OUTPUT_NAME=rp2350.rom -P "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/cmake/binh.cmake"
 
-xip_ram_perms_elf.h: /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/xip_ram_perms
-	/usr/bin/cmake -D BINARY_FILE= -D OUTPUT_NAME=xip_ram_perms_elf -P "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/cmake/binh.cmake"
+xip_ram_perms_elf.h: /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/xip_ram_perms
+	/usr/bin/cmake -D BINARY_FILE= -D OUTPUT_NAME=xip_ram_perms_elf -P "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/cmake/binh.cmake"
 
 embedded_data: CMakeFiles/embedded_data
 embedded_data: flash_id_bin.h
@@ -92,6 +92,6 @@ CMakeFiles/embedded_data.dir/clean:
 .PHONY : CMakeFiles/embedded_data.dir/clean
 
 CMakeFiles/embedded_data.dir/depend:
-	cd "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src" "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src" "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-build" "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-build" "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-build/CMakeFiles/embedded_data.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src" "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src" "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-build" "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-build" "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-build/CMakeFiles/embedded_data.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/embedded_data.dir/depend
 

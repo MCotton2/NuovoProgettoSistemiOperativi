@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/_deps/picotool-src/errors/errors.cpp" "errors/CMakeFiles/errors.dir/errors.cpp.o" "gcc" "errors/CMakeFiles/errors.dir/errors.cpp.o.d"
+  "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/_deps/picotool-src/errors/errors.cpp" "errors/CMakeFiles/errors.dir/errors.cpp.o" "gcc" "errors/CMakeFiles/errors.dir/errors.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -27,9 +27,9 @@ CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_
  /home/alex/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
  /home/alex/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
  /usr/include/newlib/assert.h \
- /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Pico\ Ricevente/build/generated/pico_base/pico/version.h \
+ /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Pico\ Ricevente/build/generated/pico_base/pico/version.h \
  /home/alex/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
- /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Pico\ Ricevente/build/generated/pico_base/pico/config_autogen.h \
+ /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Pico\ Ricevente/build/generated/pico_base/pico/config_autogen.h \
  /home/alex/pico/pico-sdk/src/boards/include/boards/pico.h \
  /home/alex/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/alex/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \

@@ -1,4 +1,4 @@
-# Install script for directory: /home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-subbuild
+# Install script for directory: /home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-subbuild
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-subbuild/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-subbuild/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

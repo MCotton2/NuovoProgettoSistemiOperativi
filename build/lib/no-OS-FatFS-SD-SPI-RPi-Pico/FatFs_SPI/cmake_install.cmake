@@ -1,4 +1,4 @@
-# Install script for directory: /home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI
+# Install script for directory: /home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/lib/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

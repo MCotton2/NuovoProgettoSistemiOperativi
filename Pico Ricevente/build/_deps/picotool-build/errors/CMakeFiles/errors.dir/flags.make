@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/_deps/picotool-src/errors"
+CXX_INCLUDES = -I"/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/_deps/picotool-src/errors"
 
 CXX_FLAGS = -O3 -DNDEBUG -std=gnu++14
 

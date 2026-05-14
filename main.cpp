@@ -132,6 +132,7 @@ int main() {
 
     float pressure = bmp.readPressure();
 
+    bmp.setSeaLevelPressure(pressure);
 
     //Loop principale
 
@@ -143,7 +144,7 @@ int main() {
 
         if(absolute_time_diff_us(last_log_time, get_absolute_time()) > 500000) {
 
-    printf("=========================== Sistema pronto ===============================\n");
+    printf("========================================================================\n");
             last_log_time = get_absolute_time();
 
             //Magnetometro
@@ -170,11 +171,13 @@ int main() {
 
             uint32_t time_ms = to_ms_since_boot(get_absolute_time());
 
+            float time_s = time_ms / 1000.0f;
+
             //Stampa
 
             printf(
-                "Tempo:%lu ms | Servo: %.2f | Mag X:%d Y:%d Z:%d | Heading: %.2f | Heading Calibrato: %.2f | Temp: %.2f C | Press: %.2f Pa | Alt: %.2f m\n", 
-                time_ms,
+                "Tempo:%.2f s | Servo: %.2f | Mag X:%d Y:%d Z:%d | Heading: %.2f | Heading Calibrato: %.2f | Temp: %.2f C | Press: %.2f Pa | Alt: %.2f m\n", 
+                time_s,
                 servo_angle,
                 mag.x,
                 mag.y,
@@ -193,8 +196,8 @@ int main() {
             snprintf(
                 line,
                 sizeof(line),
-                "%lu, %.2f, %d, %d, %d, %.2f, %.2f, %.2f, %.2f, %.2f\n",
-                time_ms,
+                "%.2f, %.2f, %d, %d, %d, %.2f, %.2f, %.2f, %.2f, %.2f\n",
+                time_s,
                 servo_angle,
                 mag.x,
                 mag.y,

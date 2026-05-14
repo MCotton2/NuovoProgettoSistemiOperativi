@@ -11,7 +11,7 @@ int main() {
     stdio_init_all();
     sleep_ms(3000);
 
-    printf("======== Pico Ricevente E200 =========");
+    printf("======== Pico Ricevente E200 =========\n");
 
     LoRaReceiver receiver;
 
@@ -27,15 +27,20 @@ int main() {
 
         if(receiver.readLine(message, sizeof(message))) {
 
+            printf("\n ================================\n\n");
+            printf("Valori: Tempo s | Servo | Mag X Y Z | Heading | Heading Calibrato | Temp C | Press Pa | Alt m\n");
             printf("Ricevuto: %s\n", message);
+            printf("\n ================================\n");
 
         }
+
+    
 
         float servo_angle;
 
         sscanf(
             message,
-            "%*u,%f",
+            "%*f,%f",
             &servo_angle
         );
 

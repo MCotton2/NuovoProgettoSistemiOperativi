@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/enc_bootloader"
-  "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-build/enc_bootloader"
-  "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-build/enc_bootloader"
-  "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-build/enc_bootloader/tmp"
-  "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp"
-  "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-build/enc_bootloader/src"
-  "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp"
+  "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/enc_bootloader"
+  "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-build/enc_bootloader"
+  "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-build/enc_bootloader"
+  "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-build/enc_bootloader/tmp"
+  "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp"
+  "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-build/enc_bootloader/src"
+  "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

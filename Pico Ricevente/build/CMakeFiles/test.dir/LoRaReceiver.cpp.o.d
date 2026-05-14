@@ -1,6 +1,6 @@
 CMakeFiles/test.dir/LoRaReceiver.cpp.o: \
- /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Pico\ Ricevente/LoRaReceiver.cpp \
- /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Pico\ Ricevente/LoRaReceiver.h \
+ /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Pico\ Ricevente/LoRaReceiver.cpp \
+ /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Pico\ Ricevente/LoRaReceiver.h \
  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
  /usr/include/newlib/stdio.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
@@ -23,9 +23,9 @@ CMakeFiles/test.dir/LoRaReceiver.cpp.o: \
  /usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h \
  /usr/include/newlib/c++/13.2.1/pstl/pstl_config.h \
  /usr/include/newlib/assert.h \
- /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Pico\ Ricevente/build/generated/pico_base/pico/version.h \
+ /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Pico\ Ricevente/build/generated/pico_base/pico/version.h \
  /home/alex/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
- /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Pico\ Ricevente/build/generated/pico_base/pico/config_autogen.h \
+ /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/Pico\ Ricevente/build/generated/pico_base/pico/config_autogen.h \
  /home/alex/pico/pico-sdk/src/boards/include/boards/pico.h \
  /home/alex/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/alex/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \

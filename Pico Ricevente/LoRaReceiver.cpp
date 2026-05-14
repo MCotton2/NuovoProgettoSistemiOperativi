@@ -45,6 +45,7 @@ bool LoRaReceiver::readLine(char *buffer, int max_length) {
 
         char c = uart_getc(LORA_UART);
 
+
         //Fine del messaggio, consideriamo \n come un pacchetto
 
         if(c == '\n') {

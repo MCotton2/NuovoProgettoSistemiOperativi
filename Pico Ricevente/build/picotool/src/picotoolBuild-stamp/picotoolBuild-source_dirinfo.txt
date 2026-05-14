@@ -4,6 +4,6 @@
 
 method=source_dir
 command=
-source_dir=/home/alex/Scrivania/Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/_deps/picotool-src
+source_dir=/home/alex/Scrivania/Progetto Sistemi Operativi/NuovoProgettoSistemiOperativi/Pico Ricevente/build/_deps/picotool-src
 work_dir=
 

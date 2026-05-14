@@ -27,7 +27,7 @@ lib/CMakeFiles/mbedtls.dir/home/alex/pico/pico-sdk/lib/mbedtls/library/constant_
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /home/alex/pico/pico-sdk/lib/mbedtls/library/common.h \
  /home/alex/pico/pico-sdk/lib/mbedtls/include/mbedtls/build_info.h \
- /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+ /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
  /home/alex/pico/pico-sdk/lib/mbedtls/include/mbedtls/config_adjust_legacy_crypto.h \
  /home/alex/pico/pico-sdk/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
  /home/alex/pico/pico-sdk/lib/mbedtls/include/mbedtls/config_adjust_ssl.h \

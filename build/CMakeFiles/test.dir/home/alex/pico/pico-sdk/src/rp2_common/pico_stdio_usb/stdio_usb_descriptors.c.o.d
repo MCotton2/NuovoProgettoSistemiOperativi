@@ -12,9 +12,9 @@ CMakeFiles/test.dir/home/alex/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_
  /usr/include/newlib/sys/features.h \
  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
- /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/generated/pico_base/pico/version.h \
+ /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/generated/pico_base/pico/version.h \
  /home/alex/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
- /home/alex/Scrivania/Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/generated/pico_base/pico/config_autogen.h \
+ /home/alex/Scrivania/Progetto\ Sistemi\ Operativi/NuovoProgettoSistemiOperativi/build/generated/pico_base/pico/config_autogen.h \
  /home/alex/pico/pico-sdk/src/boards/include/boards/pico.h \
  /home/alex/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/alex/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
